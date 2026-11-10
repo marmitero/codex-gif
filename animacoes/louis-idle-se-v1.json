@@ -1,0 +1,49 @@
+{
+  "status": "approved_and_frozen",
+  "stage": "L3.2",
+  "direction": "SE",
+  "size": [
+    1448,
+    1086
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "cell": [
+    362,
+    543
+  ],
+  "frames": 8,
+  "preview_frame_ms": 120,
+  "cycle_ms": 960,
+  "engine_validated": false,
+  "approval_date": "2026-11-10",
+  "approval": "aprovado, publique no repositorio usando github e atualize documentos e readme.",
+  "prompt": "prompts/louis-idle-se-v1.txt",
+  "references": [
+    "artes/louis-sudeste-parado-v1.png",
+    "referencias/Idle front Louis.png",
+    "animacoes/louis-idle-e-v1.png",
+    "artes/louis-costas-parado-v2.png",
+    "referencias/arte congelada Louis.png"
+  ],
+  "files": {
+    "png": {
+      "sha256": "2ad82d1a3ff410d2fc3264bc6c10a9303ce0185192c2f0120efe706036c4ee5c",
+      "bytes": 1980795,
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    "gif": {
+      "sha256": "341bc95b01e73300ccbb17d64a8261232eaf970d12bdf2b1f30bdf2e549bc095",
+      "bytes": 1150677,
+      "size": [
+        362,
+        543
+      ]
+    }
+  }
+}
