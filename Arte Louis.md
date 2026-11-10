@@ -72,3 +72,7 @@ Comparar lado a lado: rosto/cabelo; proporção cabeça/corpo; olhos e marca; le
 ## Regra posterior obrigatória — 10/11/2026
 
 Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a [v2 corrigida e congelada](artes/louis-costas-parado-v2.png) como referência posterior oficial.
+
+## Referência lateral Leste congelada — 10/11/2026
+
+A [arte Leste parada v1](artes/louis-leste-parado-v1.png) foi aprovada e congelada pelo usuário. É a autoridade estática da vista E (direita da tela), complementando frente e costas v2. Consultar [registro](artes/louis-leste-parado-v1.md) e prompt preservado. Lado direito anatômico próximo, ombro de couro; ombreira metálica e adaga no lado distante oculto. Bolsa anterior direita parcialmente sobreposta pelo braço; faixa direita posterior independente. Novas gerações E devem usar esta imagem; não espelhar para W. Alterações exigem nova versão e aprovação.

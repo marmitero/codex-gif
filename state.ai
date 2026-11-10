@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
-stage: L2 — Idle N v1 aprovado e congelado; publicação concluída, lacuna de prompt registrada
-status: Idle N v1 aprovado e congelado em 2026-11-10; aguardando próxima instrução
+stage: L3 — arte estática E v1 aprovada e congelada; Idle E pendente
+status: Arte Leste v1 aprovada e congelada em 2026-11-10; aguardando instrução para Idle E
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -33,9 +33,12 @@ Duas fontes intactas em referencias/; dois documentos de referência na raiz; RE
 Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Idle N v1: animacoes/louis-idle-n-v1.png (1448x1086, RGB opaco, grade 4x2, oito quadros), original aprovado preservado. Prévia: animacoes/louis-idle-n-v1.gif, 120 ms/quadro, oito frames em leitura por linhas. Registro e JSON na mesma pasta. Prompt literal não recuperado; não inventar. Nenhuma validação no motor realizada.
 
 PRÓXIMO PASSO
-Aguardar o usuário escolher a próxima ação/direção. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
+Aguardar instrução do usuário para produzir Idle E. Usar obrigatoriamente artes/louis-leste-parado-v1.png como autoridade lateral, com as fontes frontal e posterior. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
 
 REGRA OBRIGATÓRIA: ler docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json. Bolsa e adaga são anterolaterais, não posteriores. Na vista N neutra, ficam totalmente ocultas por corpo/casaco. Faixa bordô tem visibilidade independente. V1 histórica contém erro de oclusão. Regra já aprovada pelo usuário; arte v2 também aprovada e congelada.
 
 CONGELAMENTO IDLE N
 Aprovação explícita do usuário em 10/11/2026. PNG SHA-256: 931a487571370f94c128cf94c541d864b54a6af4713af4109f3e9709314b972d. Não sobrescrever. GIF é derivação de prévia nesta publicação; timing não congelado como parâmetro do motor. Consultar animacoes/louis-idle-n-v1.md. L2 tem lacuna documental: prompt real não recuperado.
+
+CONGELAMENTO ARTE E
+Arte estática E v1 aprovada explicitamente pelo usuário em 10/11/2026. Caminho: artes/louis-leste-parado-v1.png, 1254x1254, RGB, fundo magenta opaco. SHA-256: 826524fd83b6b8aac8e9107fd9a12c71558ac3102efe7ad85f174390dd07c372. Original sem edição; não sobrescrever. Registro e JSON em artes/; prompt literal em prompts/louis-leste-parado-v1.txt. Abrir esta referência antes de produzir E. Lado direito anatômico próximo: couro no ombro, bolsa anterior parcialmente sobreposta pelo braço, faixa posterior independente e tira na coxa; ombreira e adaga esquerdas ocultas no lado distante. Nenhum Idle E ou GIF criado nesta etapa.

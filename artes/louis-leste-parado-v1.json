@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "status": "approved_and_frozen",
+  "direction": "E",
+  "screen_facing": "right",
+  "asset": "louis-leste-parado-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGB",
+  "sha256": "826524fd83b6b8aac8e9107fd9a12c71558ac3102efe7ad85f174390dd07c372",
+  "bytes": 1411727,
+  "animation_frames": null,
+  "generator": "image_gen integrado",
+  "references": [
+    "referencias/arte congelada Louis.png",
+    "referencias/Idle front Louis.png",
+    "artes/louis-costas-parado-v2.png"
+  ],
+  "approval": "Usuário: Otimo! congele a arte e publique atualizando a documentação do repositorio",
+  "engine_validated": false
+}
