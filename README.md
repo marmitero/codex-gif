@@ -2,7 +2,7 @@
 
 Referências e produção de sprites para MMO RPG 2D isométrico, com identidade visual congelada e objetivo de oito direções.
 
-**4 de 4 direções cardeais com arte + Idle disponíveis** · **5 de 8 artes estáticas · 5 de 8 pares arte + Idle**
+**4 de 4 direções cardeais com arte + Idle disponíveis** · **6 de 8 artes estáticas · 5 de 8 pares arte + Idle**
 Conferência do inventário e dos registros em **10/11/2026**, considerando as referências originais como a direção frontal (S).
 
 ## Inventário por direção
@@ -14,8 +14,9 @@ Conferência do inventário e dos registros em **10/11/2026**, considerando as r
 | **E · Leste / direita** | [Leste parado v1](artes/louis-leste-parado-v1.png) | [Idle E v1](animacoes/louis-idle-e-v1.png) | Aprovados e congelados · [arte](artes/louis-leste-parado-v1.md) · [Idle](animacoes/louis-idle-e-v1.md) |
 | **W · Oeste / esquerda** | [Oeste parado v1](artes/louis-oeste-parado-v1.png) | [Idle W v1](animacoes/louis-idle-w-v1.png) | Aprovados e congelados · [arte](artes/louis-oeste-parado-v1.md) · [Idle](animacoes/louis-idle-w-v1.md) |
 | **SE · Sudeste / frente-direita** | [Sudeste parado v1](artes/louis-sudeste-parado-v1.png) | [Idle SE v1](animacoes/louis-idle-se-v1.png) | Arte e Idle aprovados e congelados · [L3.1](artes/louis-sudeste-parado-v1.md) · [L3.2](animacoes/louis-idle-se-v1.md) |
+| **SW · Sudoeste / frente-esquerda** | [Sudoeste parado v1](artes/louis-sudoeste-parado-v1.png) | Pendente · L3.4 | Arte aprovada e congelada · [L3.3](artes/louis-sudoeste-parado-v1.md) |
 
-“Completo” nesta conferência significa **um par de arte estática + folha Idle por direção cardinal**. **SE** possui arte e Idle aprovados e congelados (L3.1/L3.2). **NE, NW e SW** ainda não possuem arte estática aprovada. Faltam os pares arte + Idle de NE/NW/SW. Oito quadros de animação não significam oito direções.
+“Completo” nesta conferência significa **um par de arte estática + folha Idle por direção cardinal**. **SE** possui arte e Idle aprovados e congelados (L3.1/L3.2). **SW** possui arte aprovada e congelada em L3.3, com Idle pendente. **NE e NW** ainda não possuem arte estática aprovada. Faltam os pares arte + Idle de NE/NW/SW. Oito quadros de animação não significam oito direções.
 
 ## Galeria de Idle
 
@@ -48,6 +49,8 @@ As quatro direções cardeais e SE possuem GIFs publicados e são exibidas abaix
 
 <p align="center"><a href="artes/louis-sudeste-parado-v1.png"><img src="artes/louis-sudeste-parado-v1.png" alt="Louis Sudeste SE — arte estática congelada L3.1" width="300"></a><br>Sudeste · SE — L3.1 aprovada e congelada</p>
 
+<p align="center"><a href="artes/louis-sudoeste-parado-v1.png"><img src="artes/louis-sudoeste-parado-v1.png" alt="Louis Sudoeste SW — arte estática congelada L3.3" width="300"></a><br>Sudoeste · SW — L3.3 aprovada e congelada</p>
+
 ## Especificações e uso
 
 | Material | Especificação documentada |
@@ -70,9 +73,9 @@ Aprovação visual e congelamento não certificam ancoragem exata nem integraç�
 | [Arte Louis.md](Arte%20Louis.md) | Identidade, materiais, lateralidade, paleta e fidelidade |
 | [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md) | Grade, oito quadros, ancoragem proposta e contrato de produção |
 | [referencias/](referencias/) | Arte frontal e Idle frontal originais |
-| [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 / SE v1 e registros |
+| [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 / SE v1 / SW v1 e registros |
 | [animacoes/](animacoes/) | Idle N / E / W / SE: PNG, GIF, registro Markdown e metadados JSON; GIF frontal S, registro e metadados (folha S em referencias/) |
-| [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W / SE estáticos; Idle SE |
+| [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W / SE / SW estáticos; Idle SE |
 | [docs/](docs/) | Regra de oclusão em Markdown e contrato JSON |
 | [analise/medicoes.json](analise/medicoes.json) | Dimensões, hashes e caixas das referências originais |
 | [analise/medir.py](analise/medir.py) | Reprodução das medidas com Python, Pillow e NumPy |
@@ -83,8 +86,8 @@ Aprovação visual e congelamento não certificam ancoragem exata nem integraç�
 
 ## Próximas etapas
 
-- **L3 em andamento:** L3.1 e L3.2 concluídas (arte + Idle SE); faltam artes NE/NW/SW, os três Idles diagonais e a locomoção nas oito direções.
+- **L3 em andamento:** L3.1–L3.3 concluídas (arte + Idle SE e arte SW); faltam artes NE/NW, os três Idles SW/NE/NW e a locomoção nas oito direções.
 - **L4 pendente:** ataques e skills, com ações a definir.
 - **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
 
-A próxima ação/direção depende da instrução do usuário. Idle SE v1 aprovado, congelado e publicado em L3.2; [registro](animacoes/louis-idle-se-v1.md).
+Próxima etapa proposta: **L3.4 — Idle SW + GIF de validação**, com arte SW aprovada + Idles frontal/Oeste. Aguardar instrução do usuário. [Registro da arte SW congelada](artes/louis-sudoeste-parado-v1.md).

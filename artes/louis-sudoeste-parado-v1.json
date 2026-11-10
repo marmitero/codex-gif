@@ -1,0 +1,26 @@
+{
+  "stage": "L3.3",
+  "direction": "SW",
+  "version": 1,
+  "status": "approved_frozen",
+  "approved_date": "2026-11-10",
+  "approval": "aprovado! congele, publique usando github e atualize readme e documentação.",
+  "file": "louis-sudoeste-parado-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGB",
+  "bytes": 1488828,
+  "sha256": "4b72367d6c1a6c90ebea89824ab8352961ffed05b77414c933fe7403ff846b2a",
+  "background": "opaque magenta",
+  "references": [
+    "referencias/arte congelada Louis.png",
+    "artes/louis-oeste-parado-v1.png",
+    "artes/louis-costas-parado-v2.png",
+    "referencias/Idle front Louis.png"
+  ],
+  "generator": "built-in image_gen",
+  "prompt": "prompts/louis-sudoeste-parado-v1.txt",
+  "source_preserved": true,
+  "animation_produced": false,
+  "engine_validation": "pending L5"
+}
