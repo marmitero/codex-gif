@@ -44,3 +44,11 @@ Inventário recursivo e registros conferidos: S (referências originais), N (cos
 ## GIF frontal recebido — 10/11/2026
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
+
+## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
+
+[Arte SE v1](artes/louis-sudeste-parado-v1.png), [registro](artes/louis-sudeste-parado-v1.md), [metadados](artes/louis-sudeste-parado-v1.json) e [prompt literal](prompts/louis-sudeste-parado-v1.txt). Pose única em três quartos frente/direita, 1254 × 1254 px, RGB, fundo magenta opaco. Aprovação explícita: “arte aprovada. congele, documente e publique. atualize documentação e readme”. Original preservado sem edição, recorte ou redimensionamento; alterações exigem nova versão e aprovação.
+
+Lado direito anatômico próximo, com ombro de couro, bolsa anterior direita, marca na bochecha, faixa e tira da coxa direitas; ombreira metálica única e adaga à esquerda anatômica, no lado distante, com projeção parcial e sobreposição. Usar esta arte como autoridade estática SE junto de Frente e Leste; costas v2 e Idle frontal são referências complementares. Superfícies intermediárias resultam de interpretação da rotação aprovada, sem definir um novo ângulo de câmera.
+
+**L3.1 concluída.** Há 5/8 direções com arte estática e 4/8 com arte + Idle. Idle SE ainda não produzido; NE/NW/SW estáticos e as quatro animações diagonais continuam pendentes. Locomoção e integração em motor também pendentes. A próxima produção depende de instrução do usuário.

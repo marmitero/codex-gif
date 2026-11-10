@@ -1,0 +1,27 @@
+{
+  "stage": "L3.1",
+  "direction": "SE",
+  "version": 1,
+  "status": "approved_frozen",
+  "approved_date": "2026-11-10",
+  "approval": "arte aprovada. congele, documente e publique. atualize documentação e readme",
+  "file": "artes/louis-sudeste-parado-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGB",
+  "background": "opaque_magenta",
+  "bytes": 1496707,
+  "sha256": "d6f952b647c19069797ed0b1526451b4c1d831f0fd80b1aaf3c9116050331467",
+  "references_in_order": [
+    "referencias/arte congelada Louis.png",
+    "artes/louis-leste-parado-v1.png",
+    "artes/louis-costas-parado-v2.png",
+    "referencias/Idle front Louis.png"
+  ],
+  "prompt": "prompts/louis-sudeste-parado-v1.txt",
+  "tool": "image_gen",
+  "transparent_background": false,
+  "postprocessing": "none",
+  "animation_produced": false,
+  "engine_validated": false
+}
