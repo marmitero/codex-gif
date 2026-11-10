@@ -1,0 +1,20 @@
+{
+  "direction": "S",
+  "action": "idle",
+  "publication_date": "2026-11-10",
+  "source": "user_upload",
+  "source_filename": "idle_front_8frames(1).gif",
+  "file": "animacoes/louis-idle-s-v1.gif",
+  "size": [
+    362,
+    543
+  ],
+  "frames": 8,
+  "frame_ms": 120,
+  "cycle_ms": 960,
+  "bytes": 266792,
+  "sha256": "7fd15801385e102a2c637efddb265bf881cced4db822cc206f7c4328f9704c37",
+  "original_bytes_preserved": true,
+  "engine_validated": false,
+  "pixel_equivalence_with_reference_sheet_verified": false
+}

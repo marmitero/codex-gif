@@ -18,12 +18,12 @@ Conferência do inventário e dos registros em **10/11/2026**, considerando as r
 
 ## Galeria de Idle
 
-Os três GIFs já publicados são exibidos abaixo. A frente é apresentada pela folha original: **não existe GIF frontal no repositório nesta conferência**.
+As quatro direções cardeais possuem GIFs publicados e são exibidas abaixo. O GIF frontal foi enviado pelo usuário em 10/11/2026 e preservado sem alteração; [registro e procedência](animacoes/louis-idle-s-v1.md).
 
 <table>
-<tr><th>Frente · S — folha original</th><th>Costas · N — GIF</th></tr>
+<tr><th>Frente · S — GIF</th><th>Costas · N — GIF</th></tr>
 <tr>
-<td align="center"><a href="referencias/Idle%20front%20Louis.png"><img src="referencias/Idle%20front%20Louis.png" alt="Folha Idle frontal de Louis com oito quadros" width="420"></a></td>
+<td align="center"><a href="animacoes/louis-idle-s-v1.gif"><img src="animacoes/louis-idle-s-v1.gif" alt="Louis em Idle de frente" width="240"></a></td>
 <td align="center"><a href="animacoes/louis-idle-n-v1.gif"><img src="animacoes/louis-idle-n-v1.gif" alt="Louis em Idle de costas" width="240"></a></td>
 </tr>
 <tr><th>Leste · E — GIF</th><th>Oeste · W — GIF</th></tr>
@@ -33,7 +33,7 @@ Os três GIFs já publicados são exibidos abaixo. A frente é apresentada pela 
 </tr>
 </table>
 
-[Baixar GIF N](animacoes/louis-idle-n-v1.gif) · [Baixar GIF E](animacoes/louis-idle-e-v1.gif) · [Baixar GIF W](animacoes/louis-idle-w-v1.gif)
+[Baixar GIF S](animacoes/louis-idle-s-v1.gif) · [Baixar GIF N](animacoes/louis-idle-n-v1.gif) · [Baixar GIF E](animacoes/louis-idle-e-v1.gif) · [Baixar GIF W](animacoes/louis-idle-w-v1.gif)
 
 ## Galeria de artes congeladas
 
@@ -50,7 +50,7 @@ Os três GIFs já publicados são exibidos abaixo. A frente é apresentada pela 
 | Artes estáticas oficiais | 1254 × 1254 px, pose única |
 | Folhas Idle S / N / E / W | 1448 × 1086 px, grade 4 × 2, oito quadros |
 | Célula de animação | 362 × 543 px; leitura por linhas |
-| GIFs N / E / W | 120 ms/quadro, ciclo de 960 ms; prévias |
+| GIFs S / N / E / W | 120 ms/quadro, ciclo de 960 ms; prévias |
 | Fundo | Magenta opaco com variações; fontes RGB ou RGBA com alfa opaco |
 | Integração | Transparência, atlas, pivôs e validação em motor pendentes (L5) |
 
@@ -66,7 +66,7 @@ Aprovação visual e congelamento não certificam ancoragem exata nem integraç�
 | [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md) | Grade, oito quadros, ancoragem proposta e contrato de produção |
 | [referencias/](referencias/) | Arte frontal e Idle frontal originais |
 | [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 e registros |
-| [animacoes/](animacoes/) | Idle N / E / W: PNG, GIF, registro Markdown e metadados JSON |
+| [animacoes/](animacoes/) | Idle N / E / W: PNG, GIF, registro Markdown e metadados JSON; GIF frontal S, registro e metadados (folha S em referencias/) |
 | [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W estático |
 | [docs/](docs/) | Regra de oclusão em Markdown e contrato JSON |
 | [analise/medicoes.json](analise/medicoes.json) | Dimensões, hashes e caixas das referências originais |
@@ -74,7 +74,7 @@ Aprovação visual e congelamento não certificam ancoragem exata nem integraç�
 | [roadmap.md](roadmap.md) | Etapas concluídas e pendentes |
 | [state.ai](state.ai) | Estado e decisões para retomada |
 
-**Procedência:** prompts literais dos Idles N e W não foram recuperados; os das referências recebidas não foram fornecidos. Essas lacunas não devem ser preenchidas com reconstruções apresentadas como originais. Metadados dos Idles: [N](animacoes/louis-idle-n-v1.json), [E](animacoes/louis-idle-e-v1.json), [W](animacoes/louis-idle-w-v1.json).
+**Procedência:** prompts literais dos Idles N e W não foram recuperados; os das referências recebidas não foram fornecidos. Essas lacunas não devem ser preenchidas com reconstruções apresentadas como originais. Metadados dos Idles: [S](animacoes/louis-idle-s-v1.json), [N](animacoes/louis-idle-n-v1.json), [E](animacoes/louis-idle-e-v1.json), [W](animacoes/louis-idle-w-v1.json).
 
 ## Próximas etapas
 

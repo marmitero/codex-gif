@@ -39,4 +39,8 @@ A aprovação visual e o congelamento foram solicitados pelo usuário na convers
 
 ## Conferência do conjunto cardinal — 10/11/2026
 
-Inventário recursivo e registros conferidos: S (referências originais), N (costas v2 + Idle N v1), E (arte v1 + Idle v1) e W (arte v1 + Idle v1) possuem arte estática + folha Idle de oito quadros. São 4/4 cardeais e 4/8 direções do objetivo. GIFs existentes de N/E/W incorporados ao README; frente exibida como folha original, sem GIF frontal publicado. Diagonais NE/NW/SE/SW e locomoção seguem pendentes; L3 permanece em andamento e L5 não foi validada. Nenhum asset alterado nesta revisão.
+Inventário recursivo e registros conferidos: S (referências originais), N (costas v2 + Idle N v1), E (arte v1 + Idle v1) e W (arte v1 + Idle v1) possuem arte estática + folha Idle de oito quadros. São 4/4 cardeais e 4/8 direções do objetivo. GIFs existentes de N/E/W incorporados ao README; frente inicialmente exibida como folha original; GIF frontal publicado posteriormente, conforme registro abaixo. Diagonais NE/NW/SE/SW e locomoção seguem pendentes; L3 permanece em andamento e L5 não foi validada. Nenhum asset alterado nesta revisão.
+
+## GIF frontal recebido — 10/11/2026
+
+Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.

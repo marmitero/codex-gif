@@ -31,7 +31,7 @@ O fundo predominante fica próximo de #FA0BF9, com variações. Não remover som
 
 ## Movimento, ritmo e limites da inferência
 
-A intenção aparente é um idle discreto e contínuo: expansão/elevação suave, retorno e acomodação. Pés ancorados, sem deslizar. A animação real ainda não foi validada em GIF ou motor nesta etapa. Um PNG estático não fornece FPS, duração, easing, ordem garantida ou qualidade do fechamento 8→1.
+A intenção aparente é um idle discreto e contínuo: expansão/elevação suave, retorno e acomodação. Pés ancorados, sem deslizar. Na análise inicial da folha não havia prévia GIF. O GIF frontal enviado pelo usuário foi publicado posteriormente (ver registro abaixo); validação em motor permanece pendente. Um PNG estático não fornece FPS, duração, easing, ordem garantida ou qualidade do fechamento 8→1.
 
 Recomendação inicial para teste futuro, não dado extraído: 100–150 ms por quadro (aproximadamente 6,7–10 FPS), ciclo de 0,8–1,2 s. Ajustar depois de visualizar o loop, sobretudo 8→1 e 5→6. Não congelar esse timing para corrida, ataque ou skills: cada ação exige ritmo próprio e marcação de antecipação, ação e recuperação.
 
@@ -62,3 +62,7 @@ Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em
 [Louis Oeste parado v1](artes/louis-oeste-parado-v1.png): pose única olhando para a esquerda da tela (W), 1254 × 1254, RGB, fundo magenta opaco. Aprovada e congelada pelo usuário: “ficou boa! congele e publique. atualize os documentos do repositorio também.” PNG original e prompt literal preservados, sem recorte ou redimensionamento. [Registro](artes/louis-oeste-parado-v1.md), [metadados](artes/louis-oeste-parado-v1.json) e [prompt](prompts/louis-oeste-parado-v1.txt).
 
 Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para Idle W v1, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. A etapa estática não produziu animação; o Idle W v1 foi publicado posteriormente. Validação em motor pendente; aguardar instrução para próxima produção.
+
+## GIF frontal recebido — 10/11/2026
+
+Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.

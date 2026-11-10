@@ -2,7 +2,7 @@
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
 stage: L3 — quatro direções cardeais com arte + Idle; diagonais e locomoção pendentes
-status: acervo cardinal S/N/E/W conferido; README com inventário e galeria de GIFs N/E/W
+status: acervo cardinal S/N/E/W conferido; README com inventário e galeria de GIFs S/N/E/W
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -68,4 +68,8 @@ S = referencias/arte congelada Louis.png + referencias/Idle front Louis.png (fon
 N = artes/louis-costas-parado-v2.png + animacoes/louis-idle-n-v1.png.
 E = artes/louis-leste-parado-v1.png + animacoes/louis-idle-e-v1.png.
 W = artes/louis-oeste-parado-v1.png + animacoes/louis-idle-w-v1.png.
-4/4 cardeais disponíveis como arte + Idle, 4/8 direções do projeto. GIFs N/E/W existentes incorporados ao README; GIF frontal inexistente no acervo conferido. NE/NW/SE/SW sem pares aprovados. Conferência de inventário/documentação, sem nova certificação visual ou de motor. Nenhuma imagem alterada.
+4/4 cardeais disponíveis como arte + Idle, 4/8 direções do projeto. GIFs N/E/W existentes incorporados ao README; GIF frontal recebido e publicado posteriormente; ver registro abaixo. NE/NW/SE/SW sem pares aprovados. Conferência de inventário/documentação, sem nova certificação visual ou de motor. Nenhuma imagem alterada.
+
+## GIF frontal recebido — 10/11/2026
+
+Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
