@@ -76,3 +76,9 @@ Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em
 ## Referência lateral Leste congelada — 10/11/2026
 
 A [arte Leste parada v1](artes/louis-leste-parado-v1.png) foi aprovada e congelada pelo usuário. É a autoridade estática da vista E (direita da tela), complementando frente e costas v2. Consultar [registro](artes/louis-leste-parado-v1.md) e prompt preservado. Lado direito anatômico próximo, ombro de couro; ombreira metálica e adaga no lado distante oculto. Bolsa anterior direita parcialmente sobreposta pelo braço; faixa direita posterior independente. Novas gerações E devem usar esta imagem; não espelhar para W. Alterações exigem nova versão e aprovação.
+
+## Arte Oeste aprovada e congelada — 10/11/2026
+
+[Louis Oeste parado v1](artes/louis-oeste-parado-v1.png): pose única olhando para a esquerda da tela (W), 1254 × 1254, RGB, fundo magenta opaco. Aprovada e congelada pelo usuário: “ficou boa! congele e publique. atualize os documentos do repositorio também.” PNG original e prompt literal preservados, sem recorte ou redimensionamento. [Registro](artes/louis-oeste-parado-v1.md), [metadados](artes/louis-oeste-parado-v1.json) e [prompt](prompts/louis-oeste-parado-v1.txt).
+
+Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para futuro Idle W, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. Nenhuma animação W ou validação em motor realizada nesta etapa; aguardar instrução para próxima produção.

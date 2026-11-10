@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
-stage: L3 — arte estática E v1 aprovada e congelada; Idle E v1 aprovado e congelado
-status: Arte Leste v1 aprovada e congelada em 2026-11-10; Idle E v1 aprovado e congelado
+stage: L3 — arte estática W v1 aprovada e congelada; Idle E v1 aprovado e congelado
+status: Arte Oeste v1 aprovada e congelada em 2026-11-10; fontes S, N e E preservadas
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -33,7 +33,7 @@ Duas fontes intactas em referencias/; dois documentos de referência na raiz; RE
 Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Idle N v1: animacoes/louis-idle-n-v1.png (1448x1086, RGB opaco, grade 4x2, oito quadros), original aprovado preservado. Prévia: animacoes/louis-idle-n-v1.gif, 120 ms/quadro, oito frames em leitura por linhas. Registro e JSON na mesma pasta. Prompt literal não recuperado; não inventar. Nenhuma validação no motor realizada.
 
 PRÓXIMO PASSO
-Idle E v1 aprovado e congelado. Aguardar instrução do usuário para próxima ação/direção. Usar obrigatoriamente artes/louis-leste-parado-v1.png como autoridade lateral, com as fontes frontal e posterior. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
+Arte W v1 aprovada e congelada. Aguardar instrução do usuário para próxima ação/direção. Para futuro Idle W, abrir obrigatoriamente artes/louis-oeste-parado-v1.png e usar como autoridade estática W, junto das fontes frontal, posterior v2 e E. Usar obrigatoriamente artes/louis-leste-parado-v1.png como autoridade lateral, com as fontes frontal e posterior. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
 
 REGRA OBRIGATÓRIA: ler docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json. Bolsa e adaga são anterolaterais, não posteriores. Na vista N neutra, ficam totalmente ocultas por corpo/casaco. Faixa bordô tem visibilidade independente. V1 histórica contém erro de oclusão. Regra já aprovada pelo usuário; arte v2 também aprovada e congelada.
 
@@ -46,3 +46,11 @@ Arte estática E v1 aprovada explicitamente pelo usuário em 10/11/2026. Caminho
 ## Idle E v1 — aprovado e congelado em 10/11/2026
 
 [Folha PNG](animacoes/louis-idle-e-v1.png), [prévia GIF](animacoes/louis-idle-e-v1.gif), [registro](animacoes/louis-idle-e-v1.md), [metadados](animacoes/louis-idle-e-v1.json) e [prompt literal](prompts/louis-idle-e-v1.txt) publicados. Oito quadros, grade 4 × 2, 1448 × 1086; GIF com 120 ms/quadro. Aprovação explícita: “aprovado! publique e atualize a documentação”. Preservar PNG e prompt sem sobrescrever; mudanças exigem nova versão e aprovação. Timing de prévia; integração e ancoragem exata no motor ainda pendentes. Próxima ação/direção a definir pelo usuário.
+
+## Arte Oeste aprovada e congelada — 10/11/2026
+
+[Louis Oeste parado v1](artes/louis-oeste-parado-v1.png): pose única olhando para a esquerda da tela (W), 1254 × 1254, RGB, fundo magenta opaco. Aprovada e congelada pelo usuário: “ficou boa! congele e publique. atualize os documentos do repositorio também.” PNG original e prompt literal preservados, sem recorte ou redimensionamento. [Registro](artes/louis-oeste-parado-v1.md), [metadados](artes/louis-oeste-parado-v1.json) e [prompt](prompts/louis-oeste-parado-v1.txt).
+
+Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para futuro Idle W, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. Nenhuma animação W ou validação em motor realizada nesta etapa; aguardar instrução para próxima produção.
+
+SHA-256 W: 41312cfa0f4491efe9dac6e5b8ef66c6001184444bdc0d51fd3f3337c54a0eb6. Tamanho: 1416998 bytes. Não sobrescrever.

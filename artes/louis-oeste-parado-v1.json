@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "status": "approved_and_frozen",
+  "direction": "W",
+  "screen_facing": "left",
+  "asset": "louis-oeste-parado-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGB",
+  "sha256": "41312cfa0f4491efe9dac6e5b8ef66c6001184444bdc0d51fd3f3337c54a0eb6",
+  "bytes": 1416998,
+  "animation_frames": null,
+  "generator": "image_gen integrado",
+  "references": [
+    "referencias/arte congelada Louis.png",
+    "artes/louis-leste-parado-v1.png",
+    "artes/louis-costas-parado-v2.png",
+    "referencias/Idle front Louis.png"
+  ],
+  "prompt": "prompts/louis-oeste-parado-v1.txt",
+  "approval": "ficou boa! congele e publique. atualize os documentos do repositorio também.",
+  "engine_validated": false
+}

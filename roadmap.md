@@ -7,7 +7,7 @@ Atualização: 10/11/2026.
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: arte estática E v1 aprovada e congelada; Idle E v1 aprovado e congelado |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: artes estáticas E v1 e W v1 aprovadas e congeladas; Idle E v1 aprovado e congelado |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
 
@@ -22,3 +22,9 @@ L3 — 10/11/2026: arte estática [Leste v1](artes/louis-leste-parado-v1.md) apr
 ## Idle E v1 — aprovado e congelado em 10/11/2026
 
 [Folha PNG](animacoes/louis-idle-e-v1.png), [prévia GIF](animacoes/louis-idle-e-v1.gif), [registro](animacoes/louis-idle-e-v1.md), [metadados](animacoes/louis-idle-e-v1.json) e [prompt literal](prompts/louis-idle-e-v1.txt) publicados. Oito quadros, grade 4 × 2, 1448 × 1086; GIF com 120 ms/quadro. Aprovação explícita: “aprovado! publique e atualize a documentação”. Preservar PNG e prompt sem sobrescrever; mudanças exigem nova versão e aprovação. Timing de prévia; integração e ancoragem exata no motor ainda pendentes. Próxima ação/direção a definir pelo usuário.
+
+## Arte Oeste aprovada e congelada — 10/11/2026
+
+[Louis Oeste parado v1](artes/louis-oeste-parado-v1.png): pose única olhando para a esquerda da tela (W), 1254 × 1254, RGB, fundo magenta opaco. Aprovada e congelada pelo usuário: “ficou boa! congele e publique. atualize os documentos do repositorio também.” PNG original e prompt literal preservados, sem recorte ou redimensionamento. [Registro](artes/louis-oeste-parado-v1.md), [metadados](artes/louis-oeste-parado-v1.json) e [prompt](prompts/louis-oeste-parado-v1.txt).
+
+Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para futuro Idle W, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. Nenhuma animação W ou validação em motor realizada nesta etapa; aguardar instrução para próxima produção.
