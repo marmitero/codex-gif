@@ -1,0 +1,38 @@
+{
+  "status": "approved_and_frozen",
+  "approval_date": "2026-11-10",
+  "direction": "W",
+  "sheet": {
+    "path": "animacoes/louis-idle-w-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "grid": [
+      4,
+      2
+    ],
+    "cell": [
+      362,
+      543
+    ],
+    "frames": 8,
+    "sha256": "c105e779c594d392c9445b110121653571b3224dcb539911f91c7341c95d047f"
+  },
+  "preview": {
+    "path": "animacoes/louis-idle-w-v1.gif",
+    "size": [
+      362,
+      543
+    ],
+    "frames": 8,
+    "frame_ms": 120,
+    "cycle_ms": 960,
+    "sha256": "d742a9f0f95baf0ff11beb3572235e026b0d6fe8aa217bffa0f6c1d6a63e9a52"
+  },
+  "original_bytes_preserved": true,
+  "engine_validated": false,
+  "prompt": null,
+  "prompt_status": "literal_not_recovered"
+}
