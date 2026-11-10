@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
-stage: L3 — artes E/W e Idle E/W v1 aprovados e congelados
-status: Idle Oeste W v1 e GIF aprovado publicados; fontes anteriores preservadas
+stage: L3 — quatro direções cardeais com arte + Idle; diagonais e locomoção pendentes
+status: acervo cardinal S/N/E/W conferido; README com inventário e galeria de GIFs N/E/W
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -33,7 +33,7 @@ Duas fontes intactas em referencias/; dois documentos de referência na raiz; RE
 Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Idle N v1: animacoes/louis-idle-n-v1.png (1448x1086, RGB opaco, grade 4x2, oito quadros), original aprovado preservado. Prévia: animacoes/louis-idle-n-v1.gif, 120 ms/quadro, oito frames em leitura por linhas. Registro e JSON na mesma pasta. Prompt literal não recuperado; não inventar. Nenhuma validação no motor realizada.
 
 PRÓXIMO PASSO
-Arte W v1 aprovada e congelada. Aguardar instrução do usuário para próxima ação/direção. Para futuro Idle W, abrir obrigatoriamente artes/louis-oeste-parado-v1.png e usar como autoridade estática W, junto das fontes frontal, posterior v2 e E. Usar obrigatoriamente artes/louis-leste-parado-v1.png como autoridade lateral, com as fontes frontal e posterior. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
+Arte W v1 aprovada e congelada. Aguardar instrução do usuário para próxima ação/direção. Para novas versões de Idle W, abrir obrigatoriamente artes/louis-oeste-parado-v1.png e usar como autoridade estática W, junto das fontes frontal, posterior v2 e E. Usar obrigatoriamente artes/louis-leste-parado-v1.png como autoridade lateral, com as fontes frontal e posterior. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
 
 REGRA OBRIGATÓRIA: ler docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json. Bolsa e adaga são anterolaterais, não posteriores. Na vista N neutra, ficam totalmente ocultas por corpo/casaco. Faixa bordô tem visibilidade independente. V1 histórica contém erro de oclusão. Regra já aprovada pelo usuário; arte v2 também aprovada e congelada.
 
@@ -62,3 +62,10 @@ SHA-256 W: 41312cfa0f4491efe9dac6e5b8ef66c6001184444bdc0d51fd3f3337c54a0eb6. Tam
 - [Registro](animacoes/louis-idle-w-v1.md) e [metadados](animacoes/louis-idle-w-v1.json), com hashes dos dois originais.
 
 A aprovação visual e o congelamento foram solicitados pelo usuário na conversa de origem. Preservar os arquivos; qualquer alteração exige nova versão e aprovação. A arte Oeste parada v1 continua sendo a autoridade estática W. O prompt literal do Idle W não foi recuperado nesta publicação; não reconstruir como se fosse o original. Validação em motor, transparência e atlas continuam pendentes em L5. Próxima ação/direção a definir pelo usuário.
+
+CONFERÊNCIA CARDINAL — 2026-11-10
+S = referencias/arte congelada Louis.png + referencias/Idle front Louis.png (fontes recebidas).
+N = artes/louis-costas-parado-v2.png + animacoes/louis-idle-n-v1.png.
+E = artes/louis-leste-parado-v1.png + animacoes/louis-idle-e-v1.png.
+W = artes/louis-oeste-parado-v1.png + animacoes/louis-idle-w-v1.png.
+4/4 cardeais disponíveis como arte + Idle, 4/8 direções do projeto. GIFs N/E/W existentes incorporados ao README; GIF frontal inexistente no acervo conferido. NE/NW/SE/SW sem pares aprovados. Conferência de inventário/documentação, sem nova certificação visual ou de motor. Nenhuma imagem alterada.

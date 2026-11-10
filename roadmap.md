@@ -36,3 +36,7 @@ Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior es
 - [Registro](animacoes/louis-idle-w-v1.md) e [metadados](animacoes/louis-idle-w-v1.json), com hashes dos dois originais.
 
 A aprovação visual e o congelamento foram solicitados pelo usuário na conversa de origem. Preservar os arquivos; qualquer alteração exige nova versão e aprovação. A arte Oeste parada v1 continua sendo a autoridade estática W. O prompt literal do Idle W não foi recuperado nesta publicação; não reconstruir como se fosse o original. Validação em motor, transparência e atlas continuam pendentes em L5. Próxima ação/direção a definir pelo usuário.
+
+## Conferência do conjunto cardinal — 10/11/2026
+
+Inventário recursivo e registros conferidos: S (referências originais), N (costas v2 + Idle N v1), E (arte v1 + Idle v1) e W (arte v1 + Idle v1) possuem arte estática + folha Idle de oito quadros. São 4/4 cardeais e 4/8 direções do objetivo. GIFs existentes de N/E/W incorporados ao README; frente exibida como folha original, sem GIF frontal publicado. Diagonais NE/NW/SE/SW e locomoção seguem pendentes; L3 permanece em andamento e L5 não foi validada. Nenhum asset alterado nesta revisão.

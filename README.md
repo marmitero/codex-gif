@@ -1,61 +1,85 @@
-# Louis — codex-gif
+# Louis · Arte e animação
 
-Repositório de referências e produção de sprites de Louis para MMO RPG 2D isométrico em oito direções.
+Referências e produção de sprites para MMO RPG 2D isométrico, com identidade visual congelada e objetivo de oito direções.
 
-## Documentação oficial
+**4 de 4 direções cardeais com arte + Idle disponíveis** · **4 de 8 direções do projeto**  
+Conferência do inventário e dos registros em **10/11/2026**, considerando as referências originais como a direção frontal (S).
 
-- [Arte Louis.md](Arte%20Louis.md): identidade visual congelada, roupas, lateralidade, cores e regras de fidelidade.
-- [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md): análise dos oito quadros, grade, ancoragem e produção futura.
-- [roadmap.md](roadmap.md): etapas e entregas pendentes.
-- [state.ai](state.ai): estado para retomada por outra sessão.
-- [analise/medicoes.json](analise/medicoes.json): dimensões, hashes e caixas medidas.
-- [analise/medir.py](analise/medir.py): reprodução das medidas (Python, Pillow e NumPy).
+## Quatro direções confirmadas
 
-## Inventário
+| Direção de tela | Arte estática oficial | Folha Idle · 8 quadros | Registro / situação |
+|---|---|---|---|
+| **S · Frente** | [Arte frontal congelada](referencias/arte%20congelada%20Louis.png) | [Idle frontal original](referencias/Idle%20front%20Louis.png) | Referências recebidas e preservadas; [arte](Arte%20Louis.md) e [movimento](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md) |
+| **N · Costas** | [Costas parada v2](artes/louis-costas-parado-v2.png) | [Idle N v1](animacoes/louis-idle-n-v1.png) | Aprovados e congelados · [arte](artes/louis-costas-parado-v2.md) · [Idle](animacoes/louis-idle-n-v1.md) |
+| **E · Leste / direita** | [Leste parado v1](artes/louis-leste-parado-v1.png) | [Idle E v1](animacoes/louis-idle-e-v1.png) | Aprovados e congelados · [arte](artes/louis-leste-parado-v1.md) · [Idle](animacoes/louis-idle-e-v1.md) |
+| **W · Oeste / esquerda** | [Oeste parado v1](artes/louis-oeste-parado-v1.png) | [Idle W v1](animacoes/louis-idle-w-v1.png) | Aprovados e congelados · [arte](artes/louis-oeste-parado-v1.md) · [Idle](animacoes/louis-idle-w-v1.md) |
 
-| Arquivo | Dimensões | Uso |
-|---|---|---|
-| [referencias/arte congelada Louis.png](referencias/arte%20congelada%20Louis.png) | 1254 × 1254 | Arte principal, frente |
-| [referencias/Idle front Louis.png](referencias/Idle%20front%20Louis.png) | 1448 × 1086 | Idle frontal: 8 quadros, 4 × 2 |
-| [Idle Oeste W v1 PNG](animacoes/louis-idle-w-v1.png) | 1448 × 1086 | Aprovado e congelado; 8 quadros em 4 × 2 |
-| [GIF de validação W v1](animacoes/louis-idle-w-v1.gif) | 362 × 543 | Aprovado; 8 frames, 120 ms/quadro |
+“Completo” nesta conferência significa **um par de arte estática + folha Idle por direção cardinal**. As quatro diagonais **NE, NW, SE e SW** ainda não possuem pares aprovados. Oito quadros de animação não significam oito direções.
 
-Ambos são PNG RGBA opacos com fundo magenta variável. Não são exports transparentes prontos para o motor. Oito direções são o objetivo; a referência recebida cobre somente a frente. Os originais não foram alterados.
+## Galeria de Idle
 
-## Arte posterior congelada
+Os três GIFs já publicados são exibidos abaixo. A frente é apresentada pela folha original: **não existe GIF frontal no repositório nesta conferência**.
 
-- [Louis de costas, parado — v2](artes/louis-costas-parado-v2.png): uma arte estática de 1254 × 1254, sem frames; aprovada e congelada pelo usuário em 10/11/2026.
-- [Registro e validação](artes/louis-costas-parado-v2.md) e [prompt real](prompts/louis-costas-parado-v2.txt).
+<table>
+<tr><th>Frente · S — folha original</th><th>Costas · N — GIF</th></tr>
+<tr>
+<td align="center"><a href="referencias/Idle%20front%20Louis.png"><img src="referencias/Idle%20front%20Louis.png" alt="Folha Idle frontal de Louis com oito quadros" width="420"></a></td>
+<td align="center"><a href="animacoes/louis-idle-n-v1.gif"><img src="animacoes/louis-idle-n-v1.gif" alt="Louis em Idle de costas" width="240"></a></td>
+</tr>
+<tr><th>Leste · E — GIF</th><th>Oeste · W — GIF</th></tr>
+<tr>
+<td align="center"><a href="animacoes/louis-idle-e-v1.gif"><img src="animacoes/louis-idle-e-v1.gif" alt="Louis em Idle olhando para a direita" width="240"></a></td>
+<td align="center"><a href="animacoes/louis-idle-w-v1.gif"><img src="animacoes/louis-idle-w-v1.gif" alt="Louis em Idle olhando para a esquerda" width="240"></a></td>
+</tr>
+</table>
 
-## Estado atual
+[Baixar GIF N](animacoes/louis-idle-n-v1.gif) · [Baixar GIF E](animacoes/louis-idle-e-v1.gif) · [Baixar GIF W](animacoes/louis-idle-w-v1.gif)
 
-L0 concluída. L1 concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026. Usar a v2 como referência obrigatória para costas e derivações posteriores. L3 iniciada: arte estática Leste v1 aprovada e congelada em 10/11/2026; Idle E v1 aprovado e congelado. L2: Idle N (costas) v1 aprovado e congelado em 10/11/2026; PNG original e prévia GIF publicados. O prompt real desta geração não foi recuperado; a lacuna está registrada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
+## Galeria de artes congeladas
 
-Regra obrigatória: [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md), com [contrato JSON](docs/oclusao-equipamentos.json). V1 preservada apenas como histórico; v2 corrige bolsa e adaga na vista posterior.
+| Frente · S | Costas · N (v2) |
+|:---:|:---:|
+| <img src="referencias/arte%20congelada%20Louis.png" alt="Arte frontal congelada" width="260"> | <img src="artes/louis-costas-parado-v2.png" alt="Arte posterior v2 congelada" width="260"> |
+| **Leste · E** | **Oeste · W** |
+| <img src="artes/louis-leste-parado-v1.png" alt="Arte Leste congelada" width="260"> | <img src="artes/louis-oeste-parado-v1.png" alt="Arte Oeste congelada" width="260"> |
 
-## Idle posterior aprovado e congelado
+## Especificações e uso
 
-- [Folha Idle N v1](animacoes/louis-idle-n-v1.png): 1448 × 1086, RGB opaco, oito quadros em grade 4 × 2; original preservado sem edição.
-- [Prévia GIF](animacoes/louis-idle-n-v1.gif): leitura por linhas, 120 ms/quadro; timing de prévia, sem validação em motor.
-- [Registro de aprovação e limites](animacoes/louis-idle-n-v1.md) e [metadados](animacoes/louis-idle-n-v1.json).
-- A folha é referência congelada de Idle N. Alterações exigem nova versão e aprovação; manter a arte estática v2 como autoridade de design posterior.
+| Material | Especificação documentada |
+|---|---|
+| Artes estáticas oficiais | 1254 × 1254 px, pose única |
+| Folhas Idle S / N / E / W | 1448 × 1086 px, grade 4 × 2, oito quadros |
+| Célula de animação | 362 × 543 px; leitura por linhas |
+| GIFs N / E / W | 120 ms/quadro, ciclo de 960 ms; prévias |
+| Fundo | Magenta opaco com variações; fontes RGB ou RGBA com alfa opaco |
+| Integração | Transparência, atlas, pivôs e validação em motor pendentes (L5) |
 
-## Arte Leste aprovada e congelada
+Aprovação visual e congelamento não certificam ancoragem exata nem integração no jogo. O timing dos GIFs é de prévia; o PNG frontal não fornece timing original. Preservar os originais: alterações exigem nova versão e aprovação.
 
-- [Louis Leste parado v1](artes/louis-leste-parado-v1.png): 1254 × 1254, pose única olhando para a direita, aprovada e congelada em 10/11/2026.
-- [Registro e regras de visibilidade](artes/louis-leste-parado-v1.md), [metadados](artes/louis-leste-parado-v1.json) e [prompt literal](prompts/louis-leste-parado-v1.txt).
-- Referência estática obrigatória para Idle E. PNG original preservado; mudanças exigem nova versão e aprovação. Idle E v1 aprovado e congelado.
+**Assimetria obrigatória:** não espelhar E para obter W. Ombreira metálica e adaga pertencem ao lado esquerdo anatômico; bolsa, faixa e tira da coxa ao direito. Bolsa e adaga são anteriores e ficam ocultas na vista posterior neutra. Usar sempre a **arte posterior v2**; v1 é histórico superado. Consultar o [contrato de oclusão](docs/oclusao-equipamentos.md) e seu [JSON](docs/oclusao-equipamentos.json).
 
-## Idle E v1 — aprovado e congelado em 10/11/2026
+## Documentação e inventário
 
-[Folha PNG](animacoes/louis-idle-e-v1.png), [prévia GIF](animacoes/louis-idle-e-v1.gif), [registro](animacoes/louis-idle-e-v1.md), [metadados](animacoes/louis-idle-e-v1.json) e [prompt literal](prompts/louis-idle-e-v1.txt) publicados. Oito quadros, grade 4 × 2, 1448 × 1086; GIF com 120 ms/quadro. Aprovação explícita: “aprovado! publique e atualize a documentação”. Preservar PNG e prompt sem sobrescrever; mudanças exigem nova versão e aprovação. Timing de prévia; integração e ancoragem exata no motor ainda pendentes. Próxima ação/direção a definir pelo usuário.
+| Caminho | Conteúdo |
+|---|---|
+| [Arte Louis.md](Arte%20Louis.md) | Identidade, materiais, lateralidade, paleta e fidelidade |
+| [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md) | Grade, oito quadros, ancoragem proposta e contrato de produção |
+| [referencias/](referencias/) | Arte frontal e Idle frontal originais |
+| [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 e registros |
+| [animacoes/](animacoes/) | Idle N / E / W: PNG, GIF, registro Markdown e metadados JSON |
+| [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W estático |
+| [docs/](docs/) | Regra de oclusão em Markdown e contrato JSON |
+| [analise/medicoes.json](analise/medicoes.json) | Dimensões, hashes e caixas das referências originais |
+| [analise/medir.py](analise/medir.py) | Reprodução das medidas com Python, Pillow e NumPy |
+| [roadmap.md](roadmap.md) | Etapas concluídas e pendentes |
+| [state.ai](state.ai) | Estado e decisões para retomada |
 
-## Arte Oeste aprovada e congelada — 10/11/2026
+**Procedência:** prompts literais dos Idles N e W não foram recuperados; os das referências recebidas não foram fornecidos. Essas lacunas não devem ser preenchidas com reconstruções apresentadas como originais. Metadados dos Idles: [N](animacoes/louis-idle-n-v1.json), [E](animacoes/louis-idle-e-v1.json), [W](animacoes/louis-idle-w-v1.json).
 
-[Louis Oeste parado v1](artes/louis-oeste-parado-v1.png): pose única olhando para a esquerda da tela (W), 1254 × 1254, RGB, fundo magenta opaco. Aprovada e congelada pelo usuário: “ficou boa! congele e publique. atualize os documentos do repositorio também.” PNG original e prompt literal preservados, sem recorte ou redimensionamento. [Registro](artes/louis-oeste-parado-v1.md), [metadados](artes/louis-oeste-parado-v1.json) e [prompt](prompts/louis-oeste-parado-v1.txt).
+## Próximas etapas
 
-Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para Idle W v1, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. A etapa estática não incluiu animação. O Idle W v1 foi publicado posteriormente, conforme registro abaixo; validação em motor pendente.
+- **L3 em andamento:** faltam as quatro diagonais e a locomoção do conjunto de oito direções.
+- **L4 pendente:** ataques e skills, com ações a definir.
+- **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
 
-## Idle Oeste W v1 aprovado e congelado — 10/11/2026
-
-Folha PNG e GIF de validação recuperados da conversa anterior e publicados sem alteração de bytes. Oito quadros, grade 4 × 2; GIF com 120 ms/quadro e ciclo de 960 ms. [Registro de aprovação, procedência e limites](animacoes/louis-idle-w-v1.md) e [metadados com hashes](animacoes/louis-idle-w-v1.json). Não sobrescrever; mudanças exigem nova versão e aprovação. A arte Oeste parada v1 continua como autoridade estática. Prompt literal do Idle W não recuperado nesta publicação. Transparência, atlas e validação em motor permanecem em L5. L3 em andamento; próxima ação/direção a definir pelo usuário.
+A próxima ação/direção depende da instrução do usuário. Esta revisão organiza o acervo existente e não produz novas artes ou animações.
