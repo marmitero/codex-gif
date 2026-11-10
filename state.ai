@@ -1,0 +1,35 @@
+# Estado de retomada — Louis
+updated: 2026-11-10
+repository: https://github.com/marmitero/codex-gif
+stage: L0 concluída
+status: aguardando próxima instrução; não gerar novas imagens nesta etapa
+
+LEITURA OBRIGATÓRIA
+1. README.md
+2. Arte Louis.md
+3. Padrão de movimentação Louis.md
+4. roadmap.md
+5. Abrir visualmente as duas imagens em referencias/ antes de produzir.
+
+DECISÕES DO USUÁRIO
+- Salvar tudo que for produzido neste repositório.
+- Manter README, roadmap e state.ai atualizados em cada entrega.
+- Arte recebida congelada e idle frontal são referências para próximas gerações.
+- Destino: MMO RPG 2D isométrico; oito direções para movimento, ataques e skills.
+- Cada padrão de movimentação terá geração própria, respeitando fundo e espaçamento.
+- Após esta análise, informar e aguardar instrução.
+
+MEDIDAS E LIMITES
+Arte: 1254x1254. Idle: 1448x1086, 4x2, 362x543/célula, oito quadros frontais.
+Alfa integralmente 255, fundo magenta com variações. Não são imagens transparentes.
+Base dos pés: y=496 local. Pivô proposto: x=183,y=496, ainda não validado no motor.
+FPS e ordem temporal não constam na fonte. Leitura por linhas é convenção adotada; 100–150 ms/frame é sugestão para teste futuro.
+A fonte frontal não comprova câmera isométrica nem design posterior. Não inventar aprovação das costas.
+Assimetria: ombreira metálica e arma à esquerda anatômica; bolsa, faixa e tira da coxa à direita; não espelhar automaticamente.
+
+ENTREGAS
+Duas fontes intactas em referencias/; dois documentos de referência na raiz; README.md, roadmap.md, state.ai; script e medições em analise/.
+Nenhum novo sprite, GIF ou prompt original recuperado. Nenhuma validação animada/motor realizada.
+
+PRÓXIMO PASSO
+Aguardar o usuário escolher a próxima ação/direção. Registrar prompts reais e validações nas próximas entregas.
