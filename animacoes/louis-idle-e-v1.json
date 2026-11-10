@@ -1,0 +1,23 @@
+{
+  "status": "approved_and_frozen",
+  "direction": "E",
+  "size": [
+    1448,
+    1086
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "cell": [
+    362,
+    543
+  ],
+  "frames": 8,
+  "preview_frame_ms": 120,
+  "sha256": "d8a711395779bb56115e5b52a102264691e8f1f674a3b19b3267763080d03438",
+  "engine_validated": false,
+  "approval_date": "2026-11-10",
+  "approval": "aprovado! publique e atualize a documentação",
+  "prompt": "prompts/louis-idle-e-v1.txt"
+}

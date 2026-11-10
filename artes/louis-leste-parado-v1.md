@@ -16,6 +16,6 @@ As superfícies laterais antes não mostradas são interpretações agora aprova
 
 ## Uso e limites
 
-Referência oficial estática de E para futuro Idle E, junto das fontes frontal e posterior. Esta aprovação congela a aparência mostrada; não define novos frames, timing, pivô ou export transparente. Idle E ainda não produzido. Não foi validado em motor. Próxima produção depende de instrução do usuário e deve seguir o contrato de movimento existente.
+Referência oficial estática de E para futuro Idle E, junto das fontes frontal e posterior. Esta aprovação congela a aparência mostrada; não define novos frames, timing, pivô ou export transparente. Idle E v1 aprovado e congelado em 10/11/2026; consultar animacoes/louis-idle-e-v1.md. Não foi validado em motor. Próxima produção depende de instrução do usuário e deve seguir o contrato de movimento existente.
 
 SHA-256: `826524fd83b6b8aac8e9107fd9a12c71558ac3102efe7ad85f174390dd07c372`. Tamanho: 1411727 bytes.

@@ -27,7 +27,7 @@ Ambos são PNG RGBA opacos com fundo magenta variável. Não são exports transp
 
 ## Estado atual
 
-L0 concluída. L1 concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026. Usar a v2 como referência obrigatória para costas e derivações posteriores. L3 iniciada: arte estática Leste v1 aprovada e congelada em 10/11/2026; Idle E pendente. L2: Idle N (costas) v1 aprovado e congelado em 10/11/2026; PNG original e prévia GIF publicados. O prompt real desta geração não foi recuperado; a lacuna está registrada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
+L0 concluída. L1 concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026. Usar a v2 como referência obrigatória para costas e derivações posteriores. L3 iniciada: arte estática Leste v1 aprovada e congelada em 10/11/2026; Idle E v1 aprovado e congelado. L2: Idle N (costas) v1 aprovado e congelado em 10/11/2026; PNG original e prévia GIF publicados. O prompt real desta geração não foi recuperado; a lacuna está registrada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
 
 Regra obrigatória: [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md), com [contrato JSON](docs/oclusao-equipamentos.json). V1 preservada apenas como histórico; v2 corrige bolsa e adaga na vista posterior.
 
@@ -42,4 +42,8 @@ Regra obrigatória: [posição e oclusão dos equipamentos](docs/oclusao-equipam
 
 - [Louis Leste parado v1](artes/louis-leste-parado-v1.png): 1254 × 1254, pose única olhando para a direita, aprovada e congelada em 10/11/2026.
 - [Registro e regras de visibilidade](artes/louis-leste-parado-v1.md), [metadados](artes/louis-leste-parado-v1.json) e [prompt literal](prompts/louis-leste-parado-v1.txt).
-- Referência obrigatória para futuro Idle E. PNG original preservado; mudanças exigem nova versão e aprovação. Idle E ainda não gerado.
+- Referência estática obrigatória para Idle E. PNG original preservado; mudanças exigem nova versão e aprovação. Idle E v1 aprovado e congelado.
+
+## Idle E v1 — aprovado e congelado em 10/11/2026
+
+[Folha PNG](animacoes/louis-idle-e-v1.png), [prévia GIF](animacoes/louis-idle-e-v1.gif), [registro](animacoes/louis-idle-e-v1.md), [metadados](animacoes/louis-idle-e-v1.json) e [prompt literal](prompts/louis-idle-e-v1.txt) publicados. Oito quadros, grade 4 × 2, 1448 × 1086; GIF com 120 ms/quadro. Aprovação explícita: “aprovado! publique e atualize a documentação”. Preservar PNG e prompt sem sobrescrever; mudanças exigem nova versão e aprovação. Timing de prévia; integração e ancoragem exata no motor ainda pendentes. Próxima ação/direção a definir pelo usuário.
