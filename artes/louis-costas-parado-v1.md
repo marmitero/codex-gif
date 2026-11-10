@@ -9,3 +9,5 @@ Referências: as duas fontes intactas em `referencias/`, com prioridade para a a
 Revisão visual: vista posterior direta, corpo completo, postura neutra, ombreira e arma à esquerda anatômica, bolsa/faixa/tira da coxa à direita. Paleta, cabelo volumoso e tratamento pixel art seguem a referência. Desenho posterior do cabelo, costas do casaco, passagem da correia e traseira das botas são interpretações novas a validar pelo usuário. O comprimento visível da bainha também precisa de aprovação, pois a fonte frontal não o confirma por inteiro.
 
 Próximo passo: receber avaliação desta arte antes de tratá-la como referência congelada ou produzir animações.
+
+SUPERADA: v2 corrige oclusão de bolsa e adaga, que estão à frente do corpo. Não usar v1 como referência de profundidade.

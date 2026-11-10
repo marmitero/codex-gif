@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "authority": "user",
+  "coordinate_system": {
+    "x_positive": "anatomical_right",
+    "y_positive": "body_front",
+    "z_positive": "head"
+  },
+  "items": {
+    "pouch": {
+      "anchor": "right_anterior_hip",
+      "neutral_N": "fully_occluded"
+    },
+    "sheathed_dagger": {
+      "anchor": "left_anterior_hip",
+      "neutral_N": "fully_occluded"
+    },
+    "burgundy_cloth": {
+      "anchor": "right_lateral_posterior_hip",
+      "visibility": "evaluate_independently"
+    }
+  },
+  "directions": {
+    "S": "front_reference",
+    "SE_SW": "depth_dependent_partial",
+    "E_W": "profile_depth_dependent",
+    "NE_NW": "mostly_body_occluded",
+    "N": "neutral_body_and_coat_occlusion"
+  },
+  "invariants": [
+    "body_local_attachment",
+    "anatomical_laterality",
+    "no_visibility_driven_relocation",
+    "per_frame_occlusion"
+  ],
+  "validation": "manual_visual_required; metadata_is_not_pixel_validator"
+}

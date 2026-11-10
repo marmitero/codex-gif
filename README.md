@@ -22,9 +22,11 @@ Ambos são PNG RGBA opacos com fundo magenta variável. Não são exports transp
 
 ## Nova arte para aprovação
 
-- [Louis de costas, parado — v1](artes/louis-costas-parado-v1.png): uma arte estática de 1254 × 1254, sem frames; proposta ainda não congelada.
-- [Registro e validação](artes/louis-costas-parado-v1.md) e [prompt real](prompts/louis-costas-parado-v1.txt).
+- [Louis de costas, parado — v2](artes/louis-costas-parado-v2.png): uma arte estática de 1254 × 1254, sem frames; proposta ainda não congelada.
+- [Registro e validação](artes/louis-costas-parado-v2.md) e [prompt real](prompts/louis-costas-parado-v2.txt).
 
 ## Estado atual
 
-L0 concluída. L1: arte posterior estática v1 produzida, aguardando aprovação do usuário para congelamento. Nenhuma animação nova foi gerada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
+L0 concluída. L1: arte posterior estática v2 corrigida, aguardando aprovação do usuário para congelamento. Nenhuma animação nova foi gerada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
+
+Regra obrigatória: [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md), com [contrato JSON](docs/oclusao-equipamentos.json). V1 preservada apenas como histórico; v2 corrige bolsa e adaga na vista posterior.

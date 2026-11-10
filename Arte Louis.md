@@ -68,3 +68,7 @@ Famílias visuais obrigatórias: cabelo carvão/castanho, couro marrom quente, c
 ## Lista de validação visual
 
 Comparar lado a lado: rosto/cabelo; proporção cabeça/corpo; olhos e marca; lenço; ombreira única; correia e fivela; bolsa, arma e faixa em seus lados; luvas e botas; contraste, contorno e densidade de detalhe. Rejeitar mudança de estética, membros extras, acessórios trocados, arma aparecendo/desaparecendo ou alterações de escala entre quadros.
+
+## Regra posterior obrigatória — 10/11/2026
+
+Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a v2 corrigida como proposta atual.

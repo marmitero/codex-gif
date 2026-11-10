@@ -52,3 +52,7 @@ Convenção de tela proposta: S=frente/baixo; SW=baixo-esquerda; W=esquerda; NW=
 ## Validação por entrega futura
 
 Conferir fidelidade à arte, número e ordem dos quadros, grade, dimensões e fundo; detectar clipping, duplicações involuntárias e variação de escala. Verificar pés/pivô, trajetória de mãos/arma, integridade de rosto e equipamento e transição último→primeiro. Gerar prévia animada quando autorizada a produção; ataques não precisam fechar como um ciclo de caminhada. Registrar prompt efetivamente usado, referências, parâmetros disponíveis, alterações, timing e aprovação no repositório. O prompt original das imagens recebidas não foi fornecido e não deve ser reconstruído como fato.
+
+## Regra posterior obrigatória — 10/11/2026
+
+Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a v2 corrigida como proposta atual.
