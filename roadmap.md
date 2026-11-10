@@ -5,7 +5,7 @@ Atualização: 10/11/2026.
 | Etapa | Escopo | Estado |
 |---|---|---|
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
-| L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Aguardando instrução |
+| L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Arte posterior estática v1 entregue; aguardando aprovação para congelamento |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Pendente |
 | L3 | Completar gradualmente idle e locomoção nas oito direções | Pendente, escopo a definir |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |

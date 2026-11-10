@@ -20,6 +20,11 @@ Repositório de referências e produção de sprites de Louis para MMO RPG 2D is
 
 Ambos são PNG RGBA opacos com fundo magenta variável. Não são exports transparentes prontos para o motor. Oito direções são o objetivo; a referência recebida cobre somente a frente. Os originais não foram alterados.
 
+## Nova arte para aprovação
+
+- [Louis de costas, parado — v1](artes/louis-costas-parado-v1.png): uma arte estática de 1254 × 1254, sem frames; proposta ainda não congelada.
+- [Registro e validação](artes/louis-costas-parado-v1.md) e [prompt real](prompts/louis-costas-parado-v1.txt).
+
 ## Estado atual
 
-Etapa L0 concluída: referências preservadas e analisadas; documentação inicial criada. Aguardando próxima instrução do usuário. Nenhuma animação nova foi gerada. A cada entrega, salvar fontes e resultados aqui e atualizar README, roadmap e state.ai. Não criar uma nova direção ou ação antes da próxima instrução.
+L0 concluída. L1: arte posterior estática v1 produzida, aguardando aprovação do usuário para congelamento. Nenhuma animação nova foi gerada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.

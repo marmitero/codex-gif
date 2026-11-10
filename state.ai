@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
-stage: L0 concluída
-status: aguardando próxima instrução; não gerar novas imagens nesta etapa
+stage: L1 — arte posterior estática v1 entregue
+status: aguardando aprovação da arte posterior v1; não produzir frames
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -29,7 +29,7 @@ Assimetria: ombreira metálica e arma à esquerda anatômica; bolsa, faixa e tir
 
 ENTREGAS
 Duas fontes intactas em referencias/; dois documentos de referência na raiz; README.md, roadmap.md, state.ai; script e medições em analise/.
-Nenhum novo sprite, GIF ou prompt original recuperado. Nenhuma validação animada/motor realizada.
+Nova arte: artes/louis-costas-parado-v1.png (1254x1254), proposta ainda não congelada. Registro: artes/louis-costas-parado-v1.md. Prompt real: prompts/louis-costas-parado-v1.txt. Nenhum frame ou GIF novo. Nenhuma validação animada/motor realizada.
 
 PRÓXIMO PASSO
-Aguardar o usuário escolher a próxima ação/direção. Registrar prompts reais e validações nas próximas entregas.
+Aguardar avaliação do usuário sobre a arte posterior estática v1. Não marcar como congelada sem aprovação. Partes posteriores são interpretações documentadas.
