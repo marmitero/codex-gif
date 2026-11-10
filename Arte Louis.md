@@ -1,10 +1,10 @@
 # Arte Louis
 
-Referência visual congelada — versão 1, 10/11/2026.
+Referências visuais congeladas — versão 2, 10/11/2026.
 
 ## Autoridade e uso
 
-A fonte principal é [arte congelada Louis.png](referencias/arte%20congelada%20Louis.png). A folha [Idle front Louis.png](referencias/Idle%20front%20Louis.png) define a apresentação animada e deve ser consultada em conjunto com [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md). Os arquivos originais estão preservados sem alteração. Este documento descreve o que é visível; partes ocultas não constituem design aprovado.
+A fonte principal é [arte congelada Louis.png](referencias/arte%20congelada%20Louis.png). A folha [Idle front Louis.png](referencias/Idle%20front%20Louis.png) define a apresentação animada e deve ser consultada em conjunto com [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md). Os arquivos originais estão preservados sem alteração. A [vista posterior v2](artes/louis-costas-parado-v2.png) foi aprovada e congelada pelo usuário em 10/11/2026. Ela define cabelo posterior, casaco, correia, cinto, botas e oclusão dos equipamentos mostrados. Partes não visíveis em nenhuma referência continuam não definidas.
 
 ## Identidade, silhueta e proporções
 
@@ -62,13 +62,13 @@ Famílias visuais obrigatórias: cabelo carvão/castanho, couro marrom quente, c
 3. Não espelhar automaticamente direções: ombreira, bolsa, arma, faixa, marca facial e correia são assimétricas.
 4. Manter fundo magenta opaco e espaço suficiente para cabelo, pés, tecido e arma em todos os quadros.
 5. Não acrescentar cenário, texto, números, molduras, efeitos luminosos ou equipamentos sem instrução.
-6. Para costas e diagonais, derivar apenas o necessário da roupa existente e registrar o que for interpretação; a vista frontal não confirma o desenho das costas.
+6. Para costas e diagonais, derivar apenas o necessário da roupa existente e registrar o que for interpretação; o desenho posterior deve seguir a v2 congelada; novas superfícies não mostradas continuam sendo interpretações.
 7. O destino é MMO RPG 2D isométrico com oito direções. As fontes atuais mostram frente quase ortogonal; não comprovam um ângulo isométrico específico. Validar a adaptação de câmera na primeira direção nova, preservando a identidade.
 
 ## Lista de validação visual
 
-Comparar lado a lado: rosto/cabelo; proporção cabeça/corpo; olhos e marca; lenço; ombreira única; correia e fivela; bolsa, arma e faixa em seus lados; luvas e botas; contraste, contorno e densidade de detalhe. Rejeitar mudança de estética, membros extras, acessórios trocados, arma aparecendo/desaparecendo ou alterações de escala entre quadros.
+Comparar lado a lado: rosto/cabelo; proporção cabeça/corpo; olhos e marca; lenço; ombreira única; correia e fivela; bolsa, arma e faixa em seus lados; luvas e botas; contraste, contorno e densidade de detalhe. Rejeitar mudança de estética, membros extras, acessórios trocados, arma aparecendo/desaparecendo sem justificativa de pose ou oclusão ou alterações de escala entre quadros.
 
 ## Regra posterior obrigatória — 10/11/2026
 
-Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a v2 corrigida como proposta atual.
+Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a [v2 corrigida e congelada](artes/louis-costas-parado-v2.png) como referência posterior oficial.

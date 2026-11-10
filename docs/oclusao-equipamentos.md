@@ -34,3 +34,7 @@ Contrato legível por ferramentas: `oclusao-equipamentos.json`. Ele registra reg
 ## Cláusula obrigatória de prompt
 
 “Preservar a fixação tridimensional dos equipamentos ao corpo. Bolsa no quadril anterior direito e adaga embainhada no quadril anterior esquerdo. Resolver a oclusão conforme câmera e pose: na vista posterior neutra, corpo e casaco ocultam ambas; não desenhá-las sobre as costas. Nas diagonais e perfis mostrar somente superfícies realmente expostas. A faixa bordô posterior/lateral direita é independente e pode continuar visível.”
+
+## Referência posterior oficial
+
+A [arte posterior v2](../artes/louis-costas-parado-v2.png) foi aprovada e congelada pelo usuário em 10/11/2026. É a autoridade visual da oclusão na pose N neutra. Preservar esta referência nas próximas gerações; v1 é apenas histórico superado.

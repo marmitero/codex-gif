@@ -47,7 +47,7 @@ Recomendação inicial para teste futuro, não dado extraído: 100–150 ms por 
 
 ## Oito direções e assimetria
 
-Convenção de tela proposta: S=frente/baixo; SW=baixo-esquerda; W=esquerda; NW=cima-esquerda; N=costas/cima; NE=cima-direita; E=direita; SE=baixo-direita. Os nomes designam a tela, não coordenadas do mapa isométrico. Apenas Idle S tem referência recebida. As outras sete direções permanecem pendentes. Preservar lateralidade anatômica em todas; não usar espelhamento simples para completar o conjunto. Não confundir oito quadros de uma ação com oito direções.
+Convenção de tela proposta: S=frente/baixo; SW=baixo-esquerda; W=esquerda; NW=cima-esquerda; N=costas/cima; NE=cima-direita; E=direita; SE=baixo-direita. Os nomes designam a tela, não coordenadas do mapa isométrico. Apenas Idle S tem referência recebida. A arte estática N (costas), v2, foi aprovada e congelada em 10/11/2026; ainda não há animação N. As seis direções restantes continuam sem arte aprovada. Preservar lateralidade anatômica em todas; não usar espelhamento simples para completar o conjunto. Não confundir oito quadros de uma ação com oito direções.
 
 ## Validação por entrega futura
 
@@ -55,4 +55,4 @@ Conferir fidelidade à arte, número e ordem dos quadros, grade, dimensões e fu
 
 ## Regra posterior obrigatória — 10/11/2026
 
-Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a v2 corrigida como proposta atual.
+Aplicar [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md) em todas as gerações. Bolsa e adaga ficam na região anterior da cintura, preservando os lados anatômicos. Na vista de costas neutra ficam ocultas pelo corpo/casaco; nunca transferi-las para as costas. A v1 posterior errou essa profundidade; usar a [v2 corrigida e congelada](artes/louis-costas-parado-v2.png) como referência posterior oficial.
