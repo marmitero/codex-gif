@@ -27,6 +27,13 @@ Ambos são PNG RGBA opacos com fundo magenta variável. Não são exports transp
 
 ## Estado atual
 
-L0 concluída. L1 concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026. Usar a v2 como referência obrigatória para costas e derivações posteriores. Nenhuma animação nova foi gerada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
+L0 concluída. L1 concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026. Usar a v2 como referência obrigatória para costas e derivações posteriores. L2: Idle N (costas) v1 aprovado e congelado em 10/11/2026; PNG original e prévia GIF publicados. O prompt real desta geração não foi recuperado; a lacuna está registrada. Manter fontes e resultados aqui e atualizar README, roadmap e state.ai em cada entrega.
 
 Regra obrigatória: [posição e oclusão dos equipamentos](docs/oclusao-equipamentos.md), com [contrato JSON](docs/oclusao-equipamentos.json). V1 preservada apenas como histórico; v2 corrige bolsa e adaga na vista posterior.
+
+## Idle posterior aprovado e congelado
+
+- [Folha Idle N v1](animacoes/louis-idle-n-v1.png): 1448 × 1086, RGB opaco, oito quadros em grade 4 × 2; original preservado sem edição.
+- [Prévia GIF](animacoes/louis-idle-n-v1.gif): leitura por linhas, 120 ms/quadro; timing de prévia, sem validação em motor.
+- [Registro de aprovação e limites](animacoes/louis-idle-n-v1.md) e [metadados](animacoes/louis-idle-n-v1.json).
+- A folha é referência congelada de Idle N. Alterações exigem nova versão e aprovação; manter a arte estática v2 como autoridade de design posterior.

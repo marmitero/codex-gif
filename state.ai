@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-10
 repository: https://github.com/marmitero/codex-gif
-stage: L1 concluída — arte posterior estática v2 congelada
-status: arte posterior v2 aprovada e congelada em 2026-11-10; aguardando próxima instrução
+stage: L2 — Idle N v1 aprovado e congelado; publicação concluída, lacuna de prompt registrada
+status: Idle N v1 aprovado e congelado em 2026-11-10; aguardando próxima instrução
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -30,9 +30,12 @@ Assimetria: ombreira metálica e arma à esquerda anatômica; bolsa, faixa e tir
 
 ENTREGAS
 Duas fontes intactas em referencias/; dois documentos de referência na raiz; README.md, roadmap.md, state.ai; script e medições em analise/.
-Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Nenhum frame ou GIF novo. Nenhuma validação animada/motor realizada.
+Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Idle N v1: animacoes/louis-idle-n-v1.png (1448x1086, RGB opaco, grade 4x2, oito quadros), original aprovado preservado. Prévia: animacoes/louis-idle-n-v1.gif, 120 ms/quadro, oito frames em leitura por linhas. Registro e JSON na mesma pasta. Prompt literal não recuperado; não inventar. Nenhuma validação no motor realizada.
 
 PRÓXIMO PASSO
-Aguardar o usuário escolher a próxima ação/direção. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Não gerar frames nesta entrega.
+Aguardar o usuário escolher a próxima ação/direção. Usar a v2 como autoridade posterior congelada, junto da frente e do idle. Preservar também Idle N v1 como referência animada congelada; alterações exigem nova versão e aprovação. Não iniciar novas gerações nesta publicação.
 
 REGRA OBRIGATÓRIA: ler docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json. Bolsa e adaga são anterolaterais, não posteriores. Na vista N neutra, ficam totalmente ocultas por corpo/casaco. Faixa bordô tem visibilidade independente. V1 histórica contém erro de oclusão. Regra já aprovada pelo usuário; arte v2 também aprovada e congelada.
+
+CONGELAMENTO IDLE N
+Aprovação explícita do usuário em 10/11/2026. PNG SHA-256: 931a487571370f94c128cf94c541d864b54a6af4713af4109f3e9709314b972d. Não sobrescrever. GIF é derivação de prévia nesta publicação; timing não congelado como parâmetro do motor. Consultar animacoes/louis-idle-n-v1.md. L2 tem lacuna documental: prompt real não recuperado.
