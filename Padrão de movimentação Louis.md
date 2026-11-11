@@ -67,7 +67,7 @@ Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior es
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.7 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.8 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -128,3 +128,13 @@ Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal s�
 Costas v2 + Oeste são as autoridades principais; arte frontal e Idle frontal complementam identidade, proporções e renderização. Ombreira prateada única no lado esquerdo anatômico próximo; couro no ombro direito distante. Correia posterior do ombro esquerdo ao quadril direito, sem fivela frontal nas costas. Bolsa anterior direita e adaga anterior esquerda ocultas pelo corpo/casaco/braços; faixa bordô e tira da coxa mantidas à direita anatômica, com visibilidade independente. Superfícies intermediárias são interpretações da rotação agora aprovada. Não espelhar NE.
 
 **Estado atual: 8/8 artes estáticas aprovadas e 7/8 pares arte + Idle.** Falta o Idle NW. Próxima etapa: **L3.8 — Idle NW + GIF de validação**, usando a arte NW aprovada e os Idles costas/Oeste, mediante instrução. Locomoção nas oito direções continua pendente em L3; transparência, atlas, pivôs e validação no motor em L5.
+
+## L3.8 — Idle Noroeste (NW) aprovado e congelado — 11/11/2026
+
+[Folha PNG](animacoes/louis-idle-nw-v1.png), [GIF aprovado](animacoes/louis-idle-nw-v1.gif), [registro](animacoes/louis-idle-nw-v1.md) e [metadados e hashes](animacoes/louis-idle-nw-v1.json) publicados. Binários enviados pelo usuário no commit `589e5d8` (“etapa manual 2”); registro e JSON completados em `8bf8bbe`. PNG e GIF preservados integralmente.
+
+Folha RGB de **1491 × 1055 px**, oito quadros em disposição **4 × 2**, leitura por linhas. Exceção de formato: não é atlas regular de células 362 × 543. GIF de **362 × 543 px**, oito frames de **120 ms**, ciclo de **960 ms**, loop infinito. Decodificação integral e hashes registrados no JSON. Prompt literal não recuperado; não reconstruir como original.
+
+Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetria e contrato de oclusão, sem espelhar NE. Ombreira prateada à esquerda anatômica próxima; bolsa e adaga anteriores predominantemente ocultas pelo corpo/casaco/braços; faixa e tira da coxa permanecem à direita anatômica.
+
+**Estado atual: 8/8 artes estáticas e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW).** O repouso nas oito direções está completo. **L3 permanece em andamento pela locomoção**; próxima ação/direção a definir mediante instrução do usuário. Transparência, atlas, pivôs e validação em motor permanecem pendentes em L5.
