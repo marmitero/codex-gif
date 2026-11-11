@@ -38,3 +38,9 @@ Contrato legível por ferramentas: `oclusao-equipamentos.json`. Ele registra reg
 ## Referência posterior oficial
 
 A [arte posterior v2](../artes/louis-costas-parado-v2.png) foi aprovada e congelada pelo usuário em 10/11/2026. É a autoridade visual da oclusão na pose N neutra. Preservar esta referência nas próximas gerações; v1 é apenas histórico superado.
+
+## Faces dos membros no Walk E — 11/11/2026
+
+A profundidade não basta: o desenho da superfície também deve corresponder à câmera e à rotação do membro. No Walk E sem torção axial, a câmera vê a face externa direita próxima e a face medial esquerda distante. A mão distante usa a palma/interior da luva, sem a placa dorsal; a bota distante usa a face interna, sem a fivela externa. A biqueira e o cuff continuam presentes. Coxa distante sem a tira da direita. Não obter essas faces por simples cópia/espelhamento da arte externa.
+
+É uma regra para esta câmera/pose, não obrigação universal de mostrar palmas ou ocultar fivelas em qualquer ação. Nas demais direções e em movimentos com torção, revisar qual superfície fica voltada à câmera. Não deslocar um membro oculto para expor sua face. [Auditoria e comparação de peças rig04](l3-w1-rig-04-auditoria-proporcoes.md).
