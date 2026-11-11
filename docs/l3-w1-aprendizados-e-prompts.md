@@ -52,3 +52,9 @@ O [relatório do piloto rig03](l3-w1-rig-03.md) registra medições, verificaç�
 Feedback do usuário: “a movimentação em si ficou boa”, mas os membros estavam desproporcionais. A auditoria confirmou mãos/botas pequenas, tecido excessivo no joelho e uso de superfícies externas nos membros distantes. O movimento do rig03 foi conservado; a arte passou por calibração de largura, alcance e encaixes, com geração específica das faces mediais. [Auditoria rig04, medidas, prompts e resultado](l3-w1-rig-04-auditoria-proporcoes.md).
 
 Aprendizado positivo: congelar a referência de escala do núcleo corporal, comparar em pose neutra, medir largura e alcance além de altura, descontar áreas escondidas dos encaixes e manter a anatomia próxima/distante. Aprendizado negativo: não normalizar apenas a caixa de altura; não tratar bone lengths constantes como prova de proporção artística; não duplicar superfície externa em membro distante; não mover membro oculto para mostrar seus detalhes. Rig04 apresentado para avaliação; ainda sem Walk congelado.
+
+## Rig05 — correção de montagem · 11/11/2026
+
+O usuário ainda percebeu braços/pernas pequenos após o rig04 e apontou possível erro de montagem. Reavaliamos os encaixes, não geramos novas imagens. A auditoria encontrou faixa da coxa cerca14px acima da referência; o remapeamento de repouso reduziu o erro para2px. Foram recalibrados quadril, comprimento lógico da coxa, volumes e alcance das mãos, com o mesmo núcleo corporal e os mesmos atlas de origem. [Relatório rig05 e cálculos](l3-w1-rig-05-montagem.md).
+
+Correção de aprendizado: largura/altura das peças e ossos constantes não comprovam que o encaixe no corpo está certo. Separar pintura, margens escondidas e geometria articular; comparar uma montagem neutra à referência antes de animar. A nova revisão contém transformações2D fixas de montagem documentadas, sem novo prompt de geração. Movimento continua a base bem recebida; arte/montagem05 sem aprovação final.
