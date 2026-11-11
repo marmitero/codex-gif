@@ -5,6 +5,10 @@ Referências e produção de sprites para MMO RPG 2D isométrico, com identidade
 **4 de 4 direções cardeais com arte + Idle disponíveis** · **8 de 8 artes estáticas · 8 de 8 pares arte + Idle**
 Conferência do inventário e dos registros em **11/11/2026**, considerando as referências originais como a direção frontal (S).
 
+## Walk E piloto — revisão de método · 11/11/2026
+
+**L3.W1 continua em produção, sem Walk aprovado.** As duas tentativas anteriores foram rejeitadas por inconsistência/fluidez. A [retrospectiva com acertos, falhas e prompts positivo/negativo](docs/l3-w1-aprendizados-e-prompts.md) passa a orientar as próximas gerações. Nova execução autorizada:16 instantes, dois passos, apoio contínuo, lados anatômicos persistentes e revisão de todas as transições. Não contar tentativas como direções aprovadas.
+
 ## Inventário por direção
 
 | Direção de tela | Arte estática oficial | Folha Idle · 8 quadros | Registro / situação |
