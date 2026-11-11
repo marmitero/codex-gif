@@ -150,5 +150,9 @@ SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratame
 
 **L3.W1 continua em produção, sem Walk aprovado.** As duas tentativas anteriores foram rejeitadas por inconsistência/fluidez. A [retrospectiva com acertos, falhas e prompts positivo/negativo](docs/l3-w1-aprendizados-e-prompts.md) passa a orientar as próximas gerações. Nova execução autorizada:16 instantes, dois passos, apoio contínuo, lados anatômicos persistentes e revisão de todas as transições. Não contar tentativas como direções aprovadas.
 
-**Execução atual — rig03:** os pares de poses também falharam; o novo [piloto com peças fixas, articulações e trajetórias calculadas](docs/l3-w1-rig-03.md) foi produzido e apresentado para avaliação visual.16 quadros distintos; apoio em todos os quadros; comprimentos articulares constantes; avanço do pé livre verificado nos dois passos. Arte e acabamento continuam sem aprovação/congelamento. O histórico e os prompts estão na retrospectiva vinculada acima.
+**Histórico — rig03:** os pares de poses também falharam; o novo [piloto com peças fixas, articulações e trajetórias calculadas](docs/l3-w1-rig-03.md) foi produzido e apresentado para avaliação visual.16 quadros distintos; apoio em todos os quadros; comprimentos articulares constantes; avanço do pé livre verificado nos dois passos. Arte e acabamento continuam sem aprovação/congelamento. O histórico e os prompts estão na retrospectiva vinculada acima.
 
+
+## Revisão atual do Walk E — rig04 · 11/11/2026
+
+O usuário recebeu bem o movimento do rig03 e pediu corrigir proporções e superfícies dos membros distantes. O **piloto rig04 foi produzido para avaliação visual**, preservando fases/ritmo e o núcleo corporal, com mãos/botas recalibradas, coxas mais estreitas e peças mediais próprias. [Auditoria com medidas, acertos/falhas e diretrizes de próximas gerações](docs/l3-w1-rig-04-auditoria-proporcoes.md). **L3.W1 ainda sem aprovação final ou congelamento.**
