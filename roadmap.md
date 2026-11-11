@@ -1,13 +1,13 @@
 # Roadmap Louis
 
-Atualização: 11/11/2026 (recuperação de L3.6; publicação binária pendente).
+Atualização: 11/11/2026 (L3.6 publicada; auditoria de integridade).
 
 | Etapa | Escopo | Estado |
 |---|---|---|
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.5 concluídas; 7/8 artes; 6/8 pares arte + Idle (S/N/E/W/SE/SW); Idle NE, arte + Idle NW e locomoção pendentes |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.6 concluídas; 7/8 artes; 7/8 pares arte + Idle (S/N/E/W/SE/SW/NE); arte + Idle NW e locomoção pendentes |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
 
@@ -44,6 +44,8 @@ Inventário recursivo e registros conferidos: S (referências originais), N (cos
 ## GIF frontal recebido — 10/11/2026
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
+
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.6 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -87,12 +89,12 @@ Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal s�
 
 **L3.5 concluída: 7/8 artes estáticas e 6/8 pares arte + Idle (S/N/E/W/SE/SW).** Idle NE e arte + Idle NW pendentes. Próxima etapa proposta: **L3.6 — Idle NE + GIF de validação**, usando a arte NE aprovada e os Idles costas/Leste. Aguardar instrução para produzir. Locomoção, transparência, atlas e validação em motor permanecem pendentes.
 
+## L3.6 — Idle Nordeste (NE) publicado e congelado — 11/11/2026
 
-## L3.6 — Idle Nordeste (NE): aprovado, originais recuperados; publicação binária pendente — 11/11/2026
+[Folha PNG](animacoes/louis-idle-ne-v1.png), [GIF aprovado](animacoes/louis-idle-ne-v1.gif), [registro](animacoes/louis-idle-ne-v1.md) e [metadados e hashes](animacoes/louis-idle-ne-v1.json) disponíveis. Binários enviados pelo usuário em `823a187` (“etapa manual”); hashes conferidos contra os originais recuperados. Folha RGB 1491 × 1055 px, oito quadros em disposição 4 × 2, com exceção de formato; GIF 362 × 543 px, oito frames de 120 ms, ciclo de 960 ms. Nenhum binário modificado nesta revisão. Prompt literal não recuperado; não inventar.
 
-A folha Idle NE e o GIF de validação foram recuperados dos artefatos da conversa de produção anterior e a aprovação explícita do usuário foi confirmada. **A conexão GitHub desta recuperação não permitiu transferir os bytes binários; os PNG/GIF NÃO estão publicados no repositório e L3.6 NÃO está concluída como publicação.** Não substituir por recriação nem anunciar o par como disponível no GitHub.
+**Estado atual: 7/8 artes e 7/8 pares arte + Idle (S/N/E/W/SE/SW/NE).** Faltam arte e Idle NW. Próxima etapa proposta: **L3.7 — arte estática NW**, depois L3.8 — Idle NW + GIF, mediante instrução. Locomoção continua pendente em L3; transparência, atlas, pivôs e validação no motor em L5.
 
-- Folha original `Louis em idle NE, vista traseira.png`: 1491 × 1055 px, RGB, 4 × 2 quadros, SHA-256 `41833a363dbf2d7b8d374f8b7ea8201b449899badb812079e180cd1ab6f2f95a`, 1.831.756 bytes. Destino previsto: `animacoes/louis-idle-ne-v1.png`.
-- GIF original `louis-idle-ne-v1-validacao.gif`: 362 × 543 px, 8 quadros, 120 ms/quadro, 960 ms/ciclo, SHA-256 `fed66b13d2040550d393b72781d8797a9240664865c87acf816833f0ef10dceb`, 539.699 bytes. Destino previsto: `animacoes/louis-idle-ne-v1.gif`.
-- Autoridade de design: `artes/louis-nordeste-parado-v1.png` (L3.5); referências de movimentação: Idle N e E. Assimetria e oclusão em `docs/oclusao-equipamentos.md`. Folha de tamanho excepcional: não presumir células regulares 362 × 543; preservar fonte sem redimensionar.
-- Após transferência binária e verificação dos hashes, criar `animacoes/louis-idle-ne-v1.json`, `animacoes/louis-idle-ne-v1.md` e registrar prompt literal **somente se recuperado**. Atualizar inventário de **6/8 para 7/8 pares** apenas depois de confirmar os dois arquivos no GitHub. NW permanecerá pendente. Transparência, pivôs e teste em motor continuam em L5.
+## Auditoria de integridade — 11/11/2026
+
+[Relatório](docs/auditoria-integridade-2026-11-11.md) e [medições](analise/integridade.json). O commit manual restaurou o **PNG Oeste (W)**, que agora decodifica integralmente e corresponde ao hash previamente documentado. O PNG SW não mudou nesse commit e abre completo. Fontes preservadas; lacunas conhecidas e limites da revisão registrados no relatório.

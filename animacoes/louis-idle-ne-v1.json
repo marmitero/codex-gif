@@ -1,0 +1,49 @@
+{
+  "status": "approved_and_frozen",
+  "stage": "L3.6",
+  "approval_date": "2026-11-10",
+  "publication_date": "2026-11-11",
+  "direction": "NE",
+  "action": "idle",
+  "sheet": {
+    "path": "animacoes/louis-idle-ne-v1.png",
+    "size": [
+      1491,
+      1055
+    ],
+    "mode": "RGB",
+    "grid": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "order": "row-major",
+    "regular_cell": false,
+    "sha256": "41833a363dbf2d7b8d374f8b7ea8201b449899badb812079e180cd1ab6f2f95a",
+    "bytes": 1831756
+  },
+  "preview": {
+    "path": "animacoes/louis-idle-ne-v1.gif",
+    "size": [
+      362,
+      543
+    ],
+    "frames": 8,
+    "frame_ms": 120,
+    "cycle_ms": 960,
+    "sha256": "fed66b13d2040550d393b72781d8797a9240664865c87acf816833f0ef10dceb",
+    "bytes": 539699
+  },
+  "references": [
+    "artes/louis-nordeste-parado-v1.png",
+    "animacoes/louis-idle-n-v1.png",
+    "animacoes/louis-idle-e-v1.png"
+  ],
+  "occlusion_contract": "docs/oclusao-equipamentos.json",
+  "original_bytes_preserved": true,
+  "engine_validated": false,
+  "prompt": null,
+  "prompt_status": "literal_not_recovered",
+  "format_exception": "Approved original is 1491x1055, layout 4x2; not a regular 362x543 atlas. GIF is an approved preview, not an engine export.",
+  "publication_source_commit": "823a1871c1b7938e171ca8f65576e1326fbfa2be"
+}

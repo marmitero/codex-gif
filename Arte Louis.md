@@ -83,6 +83,8 @@ A [arte Leste parada v1](artes/louis-leste-parado-v1.png) foi aprovada e congela
 
 Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita, faixa direita e tira da coxa direita ficam no lado distante, ocultas nesta pose; marca da bochecha direita não aparece. Não espelhar E para obter W. Esta arte é a autoridade estática para Idle W v1, junto das referências frontal, posterior v2 e E. Alterações exigem nova versão e aprovação. A etapa estática não produziu animação; o [Idle W v1](animacoes/louis-idle-w-v1.md) foi publicado posteriormente. Validação em motor pendente; aguardar instrução para próxima produção.
 
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.6 e no inventário.
+
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
 [Arte SE v1](artes/louis-sudeste-parado-v1.png), [registro](artes/louis-sudeste-parado-v1.md), [metadados](artes/louis-sudeste-parado-v1.json) e [prompt literal](prompts/louis-sudeste-parado-v1.txt). Pose única em três quartos frente/direita, 1254 × 1254 px, RGB, fundo magenta opaco. Aprovação explícita: “arte aprovada. congele, documente e publique. atualize documentação e readme”. Original preservado sem edição, recorte ou redimensionamento; alterações exigem nova versão e aprovação.
@@ -124,3 +126,13 @@ Aprovação explícita: “Aprovados! publique e atualize documentação + readm
 Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal são referências complementares. Lado direito anatômico próximo, ombro de couro; ombreira metálica única à esquerda anatômica, distante e parcialmente visível. Bolsa e adaga anteriores ocultas pelo corpo/casaco; faixa bordô lateral/posterior direita e tira da coxa preservadas. Correia posterior do ombro esquerdo ao quadril direito, sem fivela frontal nas costas. Superfícies intermediárias são interpretações da rotação agora aprovada, sem definir novo ângulo de câmera.
 
 **L3.5 concluída: 7/8 artes estáticas e 6/8 pares arte + Idle (S/N/E/W/SE/SW).** Idle NE e arte + Idle NW pendentes. Próxima etapa proposta: **L3.6 — Idle NE + GIF de validação**, usando a arte NE aprovada e os Idles costas/Leste. Aguardar instrução para produzir. Locomoção, transparência, atlas e validação em motor permanecem pendentes.
+
+## L3.6 — Idle Nordeste (NE) publicado e congelado — 11/11/2026
+
+[Folha PNG](animacoes/louis-idle-ne-v1.png), [GIF aprovado](animacoes/louis-idle-ne-v1.gif), [registro](animacoes/louis-idle-ne-v1.md) e [metadados e hashes](animacoes/louis-idle-ne-v1.json) disponíveis. Binários enviados pelo usuário em `823a187` (“etapa manual”); hashes conferidos contra os originais recuperados. Folha RGB 1491 × 1055 px, oito quadros em disposição 4 × 2, com exceção de formato; GIF 362 × 543 px, oito frames de 120 ms, ciclo de 960 ms. Nenhum binário modificado nesta revisão. Prompt literal não recuperado; não inventar.
+
+**Estado atual: 7/8 artes e 7/8 pares arte + Idle (S/N/E/W/SE/SW/NE).** Faltam arte e Idle NW. Próxima etapa proposta: **L3.7 — arte estática NW**, depois L3.8 — Idle NW + GIF, mediante instrução. Locomoção continua pendente em L3; transparência, atlas, pivôs e validação no motor em L5.
+
+## Auditoria de integridade — 11/11/2026
+
+[Relatório](docs/auditoria-integridade-2026-11-11.md) e [medições](analise/integridade.json). O commit manual restaurou o **PNG Oeste (W)**, que agora decodifica integralmente e corresponde ao hash previamente documentado. O PNG SW não mudou nesse commit e abre completo. Fontes preservadas; lacunas conhecidas e limites da revisão registrados no relatório.

@@ -12,3 +12,7 @@ Fontes recuperadas: `Louis em espera, perfil esquerdo.png` e `louis-idle-w-v1-va
 Dimensões, número de frames, duração e hashes verificados. Aprovação visual não certifica ancoragem pixel a pixel nem integração no motor. O timing é o do GIF de validação recuperado. Transparência, atlas e integração permanecem em L5.
 
 Não sobrescrever estes originais. Alterações exigem nova versão e aprovação. O prompt literal da geração não foi recuperado nesta publicação e não foi inventado. [Metadados](louis-idle-w-v1.json).
+
+## Restauração manual — 11/11/2026
+
+O commit `823a187` restaurou o PNG completo (1.761.945 bytes), que antes apresentava erro de decodificação. A versão restaurada abre integralmente e coincide com o SHA-256 já registrado no JSON: `c105e779c594d392c9445b110121653571b3224dcb539911f91c7341c95d047f`. O GIF e o design congelado foram preservados.
