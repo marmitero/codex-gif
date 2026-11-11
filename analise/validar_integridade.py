@@ -3,12 +3,16 @@ Run from any directory: python analise/validar_integridade.py
 Requires Pillow and NumPy. Does not modify assets.
 """
 from pathlib import Path
-import hashlib, json, re
+import hashlib, json, re, argparse, subprocess
 from urllib.parse import unquote, urlsplit
 from PIL import Image
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('--output', default='analise/integridade.json')
+args = parser.parse_args()
+source_commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
 errors, images, links = [], [], 0
 for p in sorted(ROOT.rglob('*')):
     if '.git' in p.parts or not p.is_file():
@@ -46,7 +50,7 @@ for p in sorted(ROOT.rglob('*')):
                     errors.append(f'{rel}: unexpected preview frames/timing')
         except Exception as exc:
             errors.append(f'{rel}: {exc}')
-    if p.suffix == '.json' and rel != 'analise/integridade.json':
+    if p.suffix == '.json' and not rel.startswith('analise/integridade'):
         try:
             data = json.loads(p.read_text())
             def check(obj, candidate=None):
@@ -103,7 +107,7 @@ for p in sorted(ROOT.rglob('*')):
                 links += 1
                 if not (p.parent / target).exists():
                     errors.append(f'{rel}: broken local link {raw}')
-report = {'date':'2026-11-11','source_commit':'823a1871c1b7938e171ca8f65576e1326fbfa2be','image_count':len(images),'gif_frame_count':sum(x['frames'] for x in images if x['path'].endswith('.gif')),'local_links_checked':links,'errors':errors,'images':images,'limits':['Foreground boundary check is approximate; not semantic certification.','No engine, transparency, pivot or atlas validation.','No external URL availability checks.']}
-(ROOT/'analise/integridade.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
+report = {'date':'2026-11-11','source_commit':source_commit,'image_count':len(images),'gif_frame_count':sum(x['frames'] for x in images if x['path'].endswith('.gif')),'local_links_checked':links,'errors':errors,'images':images,'limits':['Foreground boundary check is approximate; not semantic certification.','No engine, transparency, pivot or atlas validation.','No external URL availability checks.']}
+(ROOT/args.output).write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='images'},ensure_ascii=False,indent=2))
 raise SystemExit(bool(errors))

@@ -47,7 +47,7 @@ Recomendação inicial para teste futuro, não dado extraído: 100–150 ms por 
 
 ## Oito direções e assimetria
 
-Convenção de tela proposta: S=frente/baixo; SW=baixo-esquerda; W=esquerda; NW=cima-esquerda; N=costas/cima; NE=cima-direita; E=direita; SE=baixo-direita. Os nomes designam a tela, não coordenadas do mapa isométrico. Apenas Idle S tem referência recebida. A arte estática N (costas), v2, foi aprovada e congelada em 10/11/2026; a folha [Idle N v1](animacoes/louis-idle-n-v1.png) foi aprovada e congelada em 10/11/2026, com [registro e prévia](animacoes/louis-idle-n-v1.md). A arte estática E v1 também foi aprovada e congelada em 10/11/2026: [referência lateral](artes/louis-leste-parado-v1.png) e [registro](artes/louis-leste-parado-v1.md). [Idle E v1](animacoes/louis-idle-e-v1.png) aprovado e congelado em 10/11/2026, com [registro e GIF](animacoes/louis-idle-e-v1.md). A arte estática W v1 foi aprovada e congelada em 10/11/2026; SE passou a ter arte aprovada em L3.1 (ver registro abaixo); NE/NW/SW continuam sem arte aprovada. [Idle W v1](animacoes/louis-idle-w-v1.png) aprovado, congelado e publicado com [GIF](animacoes/louis-idle-w-v1.gif) e [registro](animacoes/louis-idle-w-v1.md). Assim, S/N/E/W possuem arte + Idle; faltam as quatro diagonais. Preservar lateralidade anatômica em todas; não usar espelhamento simples para completar o conjunto. Não confundir oito quadros de uma ação com oito direções.
+Convenção de tela proposta: S=frente/baixo; SW=baixo-esquerda; W=esquerda; NW=cima-esquerda; N=costas/cima; NE=cima-direita; E=direita; SE=baixo-direita. Os nomes designam a tela, não coordenadas do mapa isométrico. Apenas Idle S tem referência recebida. A arte estática N (costas), v2, foi aprovada e congelada em 10/11/2026; a folha [Idle N v1](animacoes/louis-idle-n-v1.png) foi aprovada e congelada em 10/11/2026, com [registro e prévia](animacoes/louis-idle-n-v1.md). A arte estática E v1 também foi aprovada e congelada em 10/11/2026: [referência lateral](artes/louis-leste-parado-v1.png) e [registro](artes/louis-leste-parado-v1.md). [Idle E v1](animacoes/louis-idle-e-v1.png) aprovado e congelado em 10/11/2026, com [registro e GIF](animacoes/louis-idle-e-v1.md). As oito direções S/N/E/W/SE/SW/NE/NW possuem arte estática e Idle publicados; conferência final em L3.9. Os relatos datados abaixo preservam os estados históricos. Preservar lateralidade anatômica em todas; não usar espelhamento simples para completar o conjunto. Não confundir oito quadros de uma ação com oito direções.
 
 ## Validação por entrega futura
 
@@ -67,7 +67,7 @@ Lado esquerdo anatômico próximo: ombreira metálica única e adaga anterior es
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.8 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.9 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -138,3 +138,9 @@ Folha RGB de **1491 × 1055 px**, oito quadros em disposição **4 × 2**, leitu
 Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetria e contrato de oclusão, sem espelhar NE. Ombreira prateada à esquerda anatômica próxima; bolsa e adaga anteriores predominantemente ocultas pelo corpo/casaco/braços; faixa e tira da coxa permanecem à direita anatômica.
 
 **Estado atual: 8/8 artes estáticas e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW).** O repouso nas oito direções está completo. **L3 permanece em andamento pela locomoção**; próxima ação/direção a definir mediante instrução do usuário. Transparência, atlas, pivôs e validação em motor permanecem pendentes em L5.
+
+## L3.9 — Conferência final das oito direções — 11/11/2026
+
+**Conferência concluída: 8/8 artes oficiais, 8/8 folhas Idle e 8/8 GIFs com registros disponíveis.** [Relatório final](docs/l3-9-conferencia-oito-direcoes.md) e [medições e hashes](analise/integridade-l3-9.json). Todos os 26 arquivos de imagem do repositório decodificam; 64 quadros GIF verificados; nenhuma divergência nos hashes registrados ou link local quebrado. Fontes aprovadas preservadas sem alteração.
+
+SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratamento diferente da folha; fundo NE apresenta variações. Prompts literais dos Idles N/W/NE/NW continuam não recuperados. Conferência de repouso concluída; L3 geral continua em andamento pela locomoção. Transparência, atlas, pivôs e teste em motor permanecem em L5.

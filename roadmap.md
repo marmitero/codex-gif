@@ -1,13 +1,13 @@
 # Roadmap Louis
 
-Atualização: 11/11/2026 (L3.8 aprovada, congelada e publicada).
+Atualização: 11/11/2026 (L3.9 — conferência final concluída).
 
 | Etapa | Escopo | Estado |
 |---|---|---|
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.8 concluídas; 8/8 artes e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW); locomoção pendente |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.9 concluídas; 8/8 artes e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW); locomoção pendente |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
 
@@ -45,7 +45,7 @@ Inventário recursivo e registros conferidos: S (referências originais), N (cos
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.8 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.9 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -120,3 +120,9 @@ Folha RGB de **1491 × 1055 px**, oito quadros em disposição **4 × 2**, leitu
 Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetria e contrato de oclusão, sem espelhar NE. Ombreira prateada à esquerda anatômica próxima; bolsa e adaga anteriores predominantemente ocultas pelo corpo/casaco/braços; faixa e tira da coxa permanecem à direita anatômica.
 
 **Estado atual: 8/8 artes estáticas e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW).** O repouso nas oito direções está completo. **L3 permanece em andamento pela locomoção**; próxima ação/direção a definir mediante instrução do usuário. Transparência, atlas, pivôs e validação em motor permanecem pendentes em L5.
+
+## L3.9 — Conferência final das oito direções — 11/11/2026
+
+**Conferência concluída: 8/8 artes oficiais, 8/8 folhas Idle e 8/8 GIFs com registros disponíveis.** [Relatório final](docs/l3-9-conferencia-oito-direcoes.md) e [medições e hashes](analise/integridade-l3-9.json). Todos os 26 arquivos de imagem do repositório decodificam; 64 quadros GIF verificados; nenhuma divergência nos hashes registrados ou link local quebrado. Fontes aprovadas preservadas sem alteração.
+
+SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratamento diferente da folha; fundo NE apresenta variações. Prompts literais dos Idles N/W/NE/NW continuam não recuperados. Conferência de repouso concluída; L3 geral continua em andamento pela locomoção. Transparência, atlas, pivôs e teste em motor permanecem em L5.

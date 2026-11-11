@@ -1,7 +1,7 @@
 # Estado de retomada — Louis
 updated: 2026-11-11
 repository: https://github.com/marmitero/codex-gif
-stage: L3.8 concluída — Idle NW publicado e congelado; locomoção de L3 pendente
+stage: L3.9 concluída — conferência final de arte e Idle nas oito direções; locomoção de L3 pendente
 status: 8/8 artes estáticas; 8/8 pares arte + Idle; repouso completo nas oito direções
 
 LEITURA OBRIGATÓRIA
@@ -74,7 +74,7 @@ W = artes/louis-oeste-parado-v1.png + animacoes/louis-idle-w-v1.png.
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.8 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.9 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -151,3 +151,9 @@ Folha RGB de **1491 × 1055 px**, oito quadros em disposição **4 × 2**, leitu
 Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetria e contrato de oclusão, sem espelhar NE. Ombreira prateada à esquerda anatômica próxima; bolsa e adaga anteriores predominantemente ocultas pelo corpo/casaco/braços; faixa e tira da coxa permanecem à direita anatômica.
 
 **Estado atual: 8/8 artes estáticas e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW).** O repouso nas oito direções está completo. **L3 permanece em andamento pela locomoção**; próxima ação/direção a definir mediante instrução do usuário. Transparência, atlas, pivôs e validação em motor permanecem pendentes em L5.
+
+## L3.9 — Conferência final das oito direções — 11/11/2026
+
+**Conferência concluída: 8/8 artes oficiais, 8/8 folhas Idle e 8/8 GIFs com registros disponíveis.** [Relatório final](docs/l3-9-conferencia-oito-direcoes.md) e [medições e hashes](analise/integridade-l3-9.json). Todos os 26 arquivos de imagem do repositório decodificam; 64 quadros GIF verificados; nenhuma divergência nos hashes registrados ou link local quebrado. Fontes aprovadas preservadas sem alteração.
+
+SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratamento diferente da folha; fundo NE apresenta variações. Prompts literais dos Idles N/W/NE/NW continuam não recuperados. Conferência de repouso concluída; L3 geral continua em andamento pela locomoção. Transparência, atlas, pivôs e teste em motor permanecem em L5.

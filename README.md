@@ -86,13 +86,13 @@ Manter as artes e os GIFs em suas respectivas tabelas de **duas colunas**, com t
 
 ## Próximas etapas
 
-- **L3 em andamento:** L3.1–L3.8 concluídas; oito direções com arte + Idle. Locomoção nas oito direções pendente.
+- **L3 em andamento:** L3.1–L3.9 concluídas; oito direções com arte + Idle. Locomoção nas oito direções pendente.
 - **L4 pendente:** ataques e skills, com ações a definir.
 - **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
 
-Próxima produção: **locomoção — ação e direção a definir pelo usuário**. [Registro da L3.8 concluída](animacoes/louis-idle-nw-v1.md).
+Próxima produção: **locomoção — ação e direção a definir pelo usuário**. [Conferência final L3.9](docs/l3-9-conferencia-oito-direcoes.md).
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.8 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.9 e no inventário.
 
 ## L3.4 — Idle Sudoeste (SW) aprovado e congelado — 10/11/2026
 
@@ -139,3 +139,9 @@ Folha RGB de **1491 × 1055 px**, oito quadros em disposição **4 × 2**, leitu
 Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetria e contrato de oclusão, sem espelhar NE. Ombreira prateada à esquerda anatômica próxima; bolsa e adaga anteriores predominantemente ocultas pelo corpo/casaco/braços; faixa e tira da coxa permanecem à direita anatômica.
 
 **Estado atual: 8/8 artes estáticas e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW).** O repouso nas oito direções está completo. **L3 permanece em andamento pela locomoção**; próxima ação/direção a definir mediante instrução do usuário. Transparência, atlas, pivôs e validação em motor permanecem pendentes em L5.
+
+## L3.9 — Conferência final das oito direções — 11/11/2026
+
+**Conferência concluída: 8/8 artes oficiais, 8/8 folhas Idle e 8/8 GIFs com registros disponíveis.** [Relatório final](docs/l3-9-conferencia-oito-direcoes.md) e [medições e hashes](analise/integridade-l3-9.json). Todos os 26 arquivos de imagem do repositório decodificam; 64 quadros GIF verificados; nenhuma divergência nos hashes registrados ou link local quebrado. Fontes aprovadas preservadas sem alteração.
+
+SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratamento diferente da folha; fundo NE apresenta variações. Prompts literais dos Idles N/W/NE/NW continuam não recuperados. Conferência de repouso concluída; L3 geral continua em andamento pela locomoção. Transparência, atlas, pivôs e teste em motor permanecem em L5.
