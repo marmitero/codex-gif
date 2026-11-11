@@ -153,6 +153,10 @@ SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratame
 **Histórico — rig03:** os pares de poses também falharam; o novo [piloto com peças fixas, articulações e trajetórias calculadas](docs/l3-w1-rig-03.md) foi produzido e apresentado para avaliação visual.16 quadros distintos; apoio em todos os quadros; comprimentos articulares constantes; avanço do pé livre verificado nos dois passos. Arte e acabamento continuam sem aprovação/congelamento. O histórico e os prompts estão na retrospectiva vinculada acima.
 
 
-## Revisão atual do Walk E — rig04 · 11/11/2026
+## Histórico do Walk E — rig04 · 11/11/2026
 
 O usuário recebeu bem o movimento do rig03 e pediu corrigir proporções e superfícies dos membros distantes. O **piloto rig04 foi produzido para avaliação visual**, preservando fases/ritmo e o núcleo corporal, com mãos/botas recalibradas, coxas mais estreitas e peças mediais próprias. [Auditoria com medidas, acertos/falhas e diretrizes de próximas gerações](docs/l3-w1-rig-04-auditoria-proporcoes.md). **L3.W1 ainda sem aprovação final ou congelamento.**
+
+## Revisão atual do Walk E — montagem05 · 11/11/2026
+
+O usuário ainda percebeu membros pequenos no rig04. A revisão05 **reutilizou as mesmas imagens**, corrigindo pivôs, geometria de repouso, alcance e vínculo das peças ao corpo. A comparação neutra com o Idle E reduziu o desvio da faixa da coxa de14 para2px e aproximou o alcance dos dedos. [Auditoria e cálculos](docs/l3-w1-rig-05-montagem.md) · [parâmetros reproduzíveis](docs/l3-w1-rig-05-calibracao.json). Movimento e faces internas preservados como base; **piloto05 para avaliação visual, sem congelamento**.
