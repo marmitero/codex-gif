@@ -145,3 +145,7 @@ Autoridade estática: arte NW v1; movimento: Idle N e Idle W. Respeitar assimetr
 **Conferência concluída: 8/8 artes oficiais, 8/8 folhas Idle e 8/8 GIFs com registros disponíveis.** [Relatório final](docs/l3-9-conferencia-oito-direcoes.md) e [medições e hashes](analise/integridade-l3-9.json). Todos os 26 arquivos de imagem do repositório decodificam; 64 quadros GIF verificados; nenhuma divergência nos hashes registrados ou link local quebrado. Fontes aprovadas preservadas sem alteração.
 
 SW/NE/NW conservam a exceção de formato 1491 × 1055; GIF S conserva o tratamento diferente da folha; fundo NE apresenta variações. Prompts literais dos Idles N/W/NE/NW continuam não recuperados. Conferência de repouso concluída; L3 geral continua em andamento pela locomoção. Transparência, atlas, pivôs e teste em motor permanecem em L5.
+
+## Walk E piloto — revisão de método · 11/11/2026
+
+**L3.W1 continua em produção, sem Walk aprovado.** As duas tentativas anteriores foram rejeitadas por inconsistência/fluidez. A [retrospectiva com acertos, falhas e prompts positivo/negativo](docs/l3-w1-aprendizados-e-prompts.md) passa a orientar as próximas gerações. Nova execução autorizada:16 instantes, dois passos, apoio contínuo, lados anatômicos persistentes e revisão de todas as transições. Não contar tentativas como direções aprovadas.
