@@ -2,7 +2,7 @@
 
 Referências e produção de sprites para MMO RPG 2D isométrico, com identidade visual congelada e objetivo de oito direções.
 
-**4 de 4 direções cardeais com arte + Idle disponíveis** · **7 de 8 artes estáticas · 7 de 8 pares arte + Idle**
+**4 de 4 direções cardeais com arte + Idle disponíveis** · **8 de 8 artes estáticas · 7 de 8 pares arte + Idle**
 Conferência do inventário e dos registros em **11/11/2026**, considerando as referências originais como a direção frontal (S).
 
 ## Inventário por direção
@@ -16,9 +16,9 @@ Conferência do inventário e dos registros em **11/11/2026**, considerando as r
 | **SE · Sudeste / frente-direita** | [Sudeste parado v1](artes/louis-sudeste-parado-v1.png) | [Idle SE v1](animacoes/louis-idle-se-v1.png) | Arte e Idle aprovados e congelados · [L3.1](artes/louis-sudeste-parado-v1.md) · [L3.2](animacoes/louis-idle-se-v1.md) |
 | **SW · Sudoeste / frente-esquerda** | [Sudoeste parado v1](artes/louis-sudoeste-parado-v1.png) | [Idle SW v1](animacoes/louis-idle-sw-v1.png) | Arte e Idle aprovados e congelados · [L3.3](artes/louis-sudoeste-parado-v1.md) · [L3.4](animacoes/louis-idle-sw-v1.md) |
 | **NE · Nordeste / costas-direita** | [Nordeste parado v1](artes/louis-nordeste-parado-v1.png) | [Idle NE v1](animacoes/louis-idle-ne-v1.png) | Arte e Idle aprovados e congelados · [L3.5](artes/louis-nordeste-parado-v1.md) · [L3.6](animacoes/louis-idle-ne-v1.md) |
-| **NW · Noroeste / costas-esquerda** | Pendente | Pendente | A produzir |
+| **NW · Noroeste / costas-esquerda** | [Noroeste parado v1](artes/louis-noroeste-parado-v1.png) | Pendente | Arte aprovada e congelada · [L3.7](artes/louis-noroeste-parado-v1.md); Idle em L3.8 |
 
-“Completo” nesta conferência significa **um par de arte estática + folha Idle por direção cardinal**. **SE** possui arte e Idle aprovados e congelados (L3.1/L3.2). **SW** possui arte aprovada e congelada em L3.3, com Idle aprovado e congelado em L3.4. **NE** possui arte e Idle aprovados e congelados em L3.5/L3.6; **NW** ainda não possui arte estática aprovada. Falta o par arte + Idle de NW. Oito quadros de animação não significam oito direções.
+“Completo” nesta conferência significa **um par de arte estática + folha Idle por direção cardinal**. **SE** possui arte e Idle aprovados e congelados (L3.1/L3.2). **SW** possui arte aprovada e congelada em L3.3, com Idle aprovado e congelado em L3.4. **NE** possui arte e Idle aprovados e congelados em L3.5/L3.6; **NW** possui arte estática aprovada e congelada em L3.7. Falta somente seu Idle para completar os oito pares. Oito quadros de animação não significam oito direções.
 
 ## Galeria de Idle
 
@@ -44,7 +44,7 @@ As quatro direções cardeais, SE, SW e NE possuem GIFs publicados e são exibid
 | **Sudeste · SE** | **Sudoeste · SW** |
 | <a href="artes/louis-sudeste-parado-v1.png"><img src="artes/louis-sudeste-parado-v1.png" alt="Louis Sudeste · SE — arte congelada" width="260"></a> | <a href="artes/louis-sudoeste-parado-v1.png"><img src="artes/louis-sudoeste-parado-v1.png" alt="Louis Sudoeste · SW — arte congelada" width="260"></a> |
 | **Nordeste · NE** | **Noroeste · NW** |
-| <a href="artes/louis-nordeste-parado-v1.png"><img src="artes/louis-nordeste-parado-v1.png" alt="Louis Nordeste · NE — arte congelada" width="260"></a> | Pendente — a produzir |
+| <a href="artes/louis-nordeste-parado-v1.png"><img src="artes/louis-nordeste-parado-v1.png" alt="Louis Nordeste · NE — arte congelada" width="260"></a> | <a href="artes/louis-noroeste-parado-v1.png"><img src="artes/louis-noroeste-parado-v1.png" alt="Louis Noroeste · NW — arte congelada" width="260"></a> |
 
 ## Especificações e uso
 
@@ -73,9 +73,9 @@ Manter as artes e os GIFs em suas respectivas tabelas de **duas colunas**, com t
 | [Arte Louis.md](Arte%20Louis.md) | Identidade, materiais, lateralidade, paleta e fidelidade |
 | [Padrão de movimentação Louis.md](Padr%C3%A3o%20de%20movimenta%C3%A7%C3%A3o%20Louis.md) | Grade, oito quadros, ancoragem proposta e contrato de produção |
 | [referencias/](referencias/) | Arte frontal e Idle frontal originais |
-| [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 / SE v1 / SW v1 / NE v1 e registros |
+| [artes/](artes/) | Artes N v1 histórica / N v2 oficial / E v1 / W v1 / SE v1 / SW v1 / NE v1 / NW v1 e registros |
 | [animacoes/](animacoes/) | Idle N / E / W / SE / SW / NE: PNG, GIF, registro Markdown e metadados JSON; GIF frontal S, registro e metadados (folha S em referencias/) |
-| [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W / SE / SW / NE estáticos; Idle SE e SW |
+| [prompts/](prompts/) | Prompts literais recuperados de N estático v1/v2, E estático/Idle e W / SE / SW / NE / NW estáticos; Idle SE e SW |
 | [docs/](docs/) | Regra de oclusão em Markdown e contrato JSON |
 | [analise/medicoes.json](analise/medicoes.json) | Dimensões, hashes e caixas das referências originais |
 | [analise/medir.py](analise/medir.py) | Reprodução das medidas com Python, Pillow e NumPy |
@@ -86,11 +86,11 @@ Manter as artes e os GIFs em suas respectivas tabelas de **duas colunas**, com t
 
 ## Próximas etapas
 
-- **L3 em andamento:** L3.1–L3.6 concluídas (arte + Idle SE/SW/NE); faltam arte + Idle NW e a locomoção nas oito direções.
+- **L3 em andamento:** L3.1–L3.7 concluídas (arte + Idle SE/SW/NE e arte NW); faltam Idle NW e a locomoção nas oito direções.
 - **L4 pendente:** ataques e skills, com ações a definir.
 - **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
 
-Próxima etapa: **L3.7 — arte estática NW**, depois L3.8 (Idle NW). [Registro da arte SW congelada](artes/louis-sudoeste-parado-v1.md).
+Próxima etapa: **L3.8 — Idle NW + GIF de validação**. [Registro da arte SW congelada](artes/louis-sudoeste-parado-v1.md).
 
 ## L3.4 — Idle Sudoeste (SW) aprovado e congelado — 10/11/2026
 
@@ -119,3 +119,11 @@ Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal s�
 ## Auditoria de integridade — 11/11/2026
 
 [Relatório](docs/auditoria-integridade-2026-11-11.md) e [medições](analise/integridade.json). O commit manual restaurou o **PNG Oeste (W)**, que agora decodifica integralmente e corresponde ao hash previamente documentado. O PNG SW não mudou nesse commit e abre completo. Fontes preservadas; lacunas conhecidas e limites da revisão registrados no relatório.
+
+## L3.7 — Arte Noroeste (NW) aprovada e congelada — 11/11/2026
+
+[Arte NW v1](artes/louis-noroeste-parado-v1.png), [registro](artes/louis-noroeste-parado-v1.md), [metadados e hash](artes/louis-noroeste-parado-v1.json) e [prompt literal](prompts/louis-noroeste-parado-v1.txt). Pose única em três quartos costas/esquerda, 1254 × 1254 px, RGB, fundo magenta opaco. Aprovação explícita: “arte aprovada! congele e publique. atualize também as documentações e readme.” PNG original preservado sem edição, recorte ou redimensionamento; alterações exigem nova versão e aprovação.
+
+Costas v2 + Oeste são as autoridades principais; arte frontal e Idle frontal complementam identidade, proporções e renderização. Ombreira prateada única no lado esquerdo anatômico próximo; couro no ombro direito distante. Correia posterior do ombro esquerdo ao quadril direito, sem fivela frontal nas costas. Bolsa anterior direita e adaga anterior esquerda ocultas pelo corpo/casaco/braços; faixa bordô e tira da coxa mantidas à direita anatômica, com visibilidade independente. Superfícies intermediárias são interpretações da rotação agora aprovada. Não espelhar NE.
+
+**Estado atual: 8/8 artes estáticas aprovadas e 7/8 pares arte + Idle.** Falta o Idle NW. Próxima etapa: **L3.8 — Idle NW + GIF de validação**, usando a arte NW aprovada e os Idles costas/Oeste, mediante instrução. Locomoção nas oito direções continua pendente em L3; transparência, atlas, pivôs e validação no motor em L5.

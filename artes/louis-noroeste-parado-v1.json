@@ -1,0 +1,24 @@
+{
+  "stage": "L3.7",
+  "direction": "NW",
+  "status": "approved_frozen",
+  "approved_date": "2026-11-11",
+  "file": "artes/louis-noroeste-parado-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGB",
+  "background": "opaque magenta",
+  "bytes": 1508827,
+  "sha256": "e6c9fe0691f6018854ea941f0430211fb1eeeae0f7d63cc861c4456d71b4497c",
+  "git_blob_sha": "9a21c8cb02a58db95a0fbd6fd6cd259fdd765d4f",
+  "generator": "image_gen integrated",
+  "references": [
+    "artes/louis-costas-parado-v2.png",
+    "artes/louis-oeste-parado-v1.png",
+    "referencias/arte congelada Louis.png",
+    "referencias/Idle front Louis.png"
+  ],
+  "prompt": "prompts/louis-noroeste-parado-v1.txt",
+  "postprocessing": "none",
+  "motor_validated": false
+}

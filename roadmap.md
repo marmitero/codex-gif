@@ -1,13 +1,13 @@
 # Roadmap Louis
 
-Atualização: 11/11/2026 (L3.6 publicada; auditoria de integridade).
+Atualização: 11/11/2026 (L3.7 aprovada, congelada e publicada).
 
 | Etapa | Escopo | Estado |
 |---|---|---|
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.6 concluídas; 7/8 artes; 7/8 pares arte + Idle (S/N/E/W/SE/SW/NE); arte + Idle NW e locomoção pendentes |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.7 concluídas; 8/8 artes; 7/8 pares arte + Idle (S/N/E/W/SE/SW/NE); Idle NW e locomoção pendentes |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
 
@@ -45,7 +45,7 @@ Inventário recursivo e registros conferidos: S (referências originais), N (cos
 
 Publicado [Idle S v1 GIF](animacoes/louis-idle-s-v1.gif), enviado pelo usuário como `idle_front_8frames(1).gif`, sem alterar seus bytes. Dimensões 362 × 543 px, oito frames, 120 ms/quadro, ciclo de 960 ms. [Registro](animacoes/louis-idle-s-v1.md) e [metadados](animacoes/louis-idle-s-v1.json). Agora S/N/E/W possuem GIFs incorporados ao README. Folha frontal original preservada em referencias/. Timing medido no GIF recebido; integração em motor continua pendente.
 
-> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.6 e no inventário.
+> Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.7 e no inventário.
 
 ## L3.1 — Arte Sudeste (SE) aprovada e congelada — 10/11/2026
 
@@ -102,3 +102,11 @@ Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal s�
 ## Organização das galerias — 11/11/2026
 
 Regra de publicação: seguir o padrão obrigatório das galerias no README. Tabelas centralizadas de duas colunas; pares S/N, E/W, SE/SW, NE/NW; artes a 260 px e GIFs a 240 px, com proporção preservada e link para o original. Substituir a célula pendente ao publicar uma direção; não acrescentar prévias soltas ou duplicadas ao final do arquivo.
+
+## L3.7 — Arte Noroeste (NW) aprovada e congelada — 11/11/2026
+
+[Arte NW v1](artes/louis-noroeste-parado-v1.png), [registro](artes/louis-noroeste-parado-v1.md), [metadados e hash](artes/louis-noroeste-parado-v1.json) e [prompt literal](prompts/louis-noroeste-parado-v1.txt). Pose única em três quartos costas/esquerda, 1254 × 1254 px, RGB, fundo magenta opaco. Aprovação explícita: “arte aprovada! congele e publique. atualize também as documentações e readme.” PNG original preservado sem edição, recorte ou redimensionamento; alterações exigem nova versão e aprovação.
+
+Costas v2 + Oeste são as autoridades principais; arte frontal e Idle frontal complementam identidade, proporções e renderização. Ombreira prateada única no lado esquerdo anatômico próximo; couro no ombro direito distante. Correia posterior do ombro esquerdo ao quadril direito, sem fivela frontal nas costas. Bolsa anterior direita e adaga anterior esquerda ocultas pelo corpo/casaco/braços; faixa bordô e tira da coxa mantidas à direita anatômica, com visibilidade independente. Superfícies intermediárias são interpretações da rotação agora aprovada. Não espelhar NE.
+
+**Estado atual: 8/8 artes estáticas aprovadas e 7/8 pares arte + Idle.** Falta o Idle NW. Próxima etapa: **L3.8 — Idle NW + GIF de validação**, usando a arte NW aprovada e os Idles costas/Oeste, mediante instrução. Locomoção nas oito direções continua pendente em L3; transparência, atlas, pivôs e validação no motor em L5.
