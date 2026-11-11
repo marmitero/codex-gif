@@ -1,6 +1,6 @@
 # Roadmap Louis
 
-Atualização: 10/11/2026.
+Atualização: 11/11/2026 (recuperação de L3.6; publicação binária pendente).
 
 | Etapa | Escopo | Estado |
 |---|---|---|
@@ -86,3 +86,13 @@ Aprovação explícita: “Aprovados! publique e atualize documentação + readm
 Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal são referências complementares. Lado direito anatômico próximo, ombro de couro; ombreira metálica única à esquerda anatômica, distante e parcialmente visível. Bolsa e adaga anteriores ocultas pelo corpo/casaco; faixa bordô lateral/posterior direita e tira da coxa preservadas. Correia posterior do ombro esquerdo ao quadril direito, sem fivela frontal nas costas. Superfícies intermediárias são interpretações da rotação agora aprovada, sem definir novo ângulo de câmera.
 
 **L3.5 concluída: 7/8 artes estáticas e 6/8 pares arte + Idle (S/N/E/W/SE/SW).** Idle NE e arte + Idle NW pendentes. Próxima etapa proposta: **L3.6 — Idle NE + GIF de validação**, usando a arte NE aprovada e os Idles costas/Leste. Aguardar instrução para produzir. Locomoção, transparência, atlas e validação em motor permanecem pendentes.
+
+
+## L3.6 — Idle Nordeste (NE): aprovado, originais recuperados; publicação binária pendente — 11/11/2026
+
+A folha Idle NE e o GIF de validação foram recuperados dos artefatos da conversa de produção anterior e a aprovação explícita do usuário foi confirmada. **A conexão GitHub desta recuperação não permitiu transferir os bytes binários; os PNG/GIF NÃO estão publicados no repositório e L3.6 NÃO está concluída como publicação.** Não substituir por recriação nem anunciar o par como disponível no GitHub.
+
+- Folha original `Louis em idle NE, vista traseira.png`: 1491 × 1055 px, RGB, 4 × 2 quadros, SHA-256 `41833a363dbf2d7b8d374f8b7ea8201b449899badb812079e180cd1ab6f2f95a`, 1.831.756 bytes. Destino previsto: `animacoes/louis-idle-ne-v1.png`.
+- GIF original `louis-idle-ne-v1-validacao.gif`: 362 × 543 px, 8 quadros, 120 ms/quadro, 960 ms/ciclo, SHA-256 `fed66b13d2040550d393b72781d8797a9240664865c87acf816833f0ef10dceb`, 539.699 bytes. Destino previsto: `animacoes/louis-idle-ne-v1.gif`.
+- Autoridade de design: `artes/louis-nordeste-parado-v1.png` (L3.5); referências de movimentação: Idle N e E. Assimetria e oclusão em `docs/oclusao-equipamentos.md`. Folha de tamanho excepcional: não presumir células regulares 362 × 543; preservar fonte sem redimensionar.
+- Após transferência binária e verificação dos hashes, criar `animacoes/louis-idle-ne-v1.json`, `animacoes/louis-idle-ne-v1.md` e registrar prompt literal **somente se recuperado**. Atualizar inventário de **6/8 para 7/8 pares** apenas depois de confirmar os dois arquivos no GitHub. NW permanecerá pendente. Transparência, pivôs e teste em motor continuam em L5.
