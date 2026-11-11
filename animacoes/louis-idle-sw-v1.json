@@ -1,0 +1,33 @@
+{
+  "status": "approved_and_frozen",
+  "approval_date": "2026-11-10",
+  "direction": "SW",
+  "sheet": {
+    "path": "animacoes/louis-idle-sw-v1.png",
+    "size": [
+      1491,
+      1055
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "regular_cell": false,
+    "sha256": "520ca8c2da452066984f089ba662722ca6369f9275b8a2507b68de27acfaad11"
+  },
+  "preview": {
+    "path": "animacoes/louis-idle-sw-v1.gif",
+    "size": [
+      362,
+      543
+    ],
+    "frames": 8,
+    "frame_ms": 120,
+    "cycle_ms": 960,
+    "sha256": "62e92a77a16aa3db7b90019247d4c93db9c870858b1e0b44ebc886a33d2d51cd"
+  },
+  "original_bytes_preserved": true,
+  "engine_validated": false,
+  "prompt": "prompts/louis-idle-sw-v1.txt",
+  "format_exception": "Prompt requested 1448x1086; generated approved sheet is 1491x1055. GIF composed before approval using proportional rounded cells, shared scale and aligned feet."
+}

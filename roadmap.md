@@ -7,7 +7,7 @@ Atualização: 10/11/2026.
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: artes estáticas E v1 e W v1 aprovadas e congeladas; Idle E v1 e Idle W v1 aprovados e congelados |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.4 concluídas; 6/8 pares arte + Idle (S/N/E/W/SE/SW); NE/NW e locomoção pendentes |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
 
@@ -68,3 +68,13 @@ Oito quadros em grade 4 × 2, folha 1448 × 1086 px, células 362 × 543 px; GIF
 Frente + Oeste são as autoridades principais; costas v2 e Idle frontal são referências complementares. Lado esquerdo anatômico próximo: ombreira prateada única e adaga anterior esquerda visíveis, com sobreposição pelo braço. Bolsa anterior direita no lado distante, com projeção parcial; faixa e tira da coxa direitas mantêm seus pontos de fixação. Sem espelhamento automático. As superfícies intermediárias são interpretações da rotação agora aprovada.
 
 **L3.3 concluída: 6/8 artes estáticas e 5/8 pares arte + Idle (S/N/E/W/SE).** SW ainda não possui animação; NE/NW ainda precisam de arte + Idle. Próxima etapa proposta: **L3.4 — Idle SW + GIF de validação**, usando a arte SW aprovada e os Idles frontal/Oeste. Aguardar instrução para produzir. Locomoção e integração no motor permanecem pendentes.
+
+## L3.4 — Idle Sudoeste (SW) aprovado e congelado — 10/11/2026
+
+[Folha original PNG](animacoes/louis-idle-sw-v1.png), [GIF aprovado](animacoes/louis-idle-sw-v1.gif), [registro](animacoes/louis-idle-sw-v1.md), [metadados e hashes](animacoes/louis-idle-sw-v1.json) e [prompt literal](prompts/louis-idle-sw-v1.txt).
+
+Aprovação explícita: “Aprovados! publique e atualize documentação + readme usando a conexão github”. PNG e GIF aprovados preservados sem alteração nesta publicação; mudanças exigem nova versão e aprovação. Arte SW v1 é a autoridade estática; Idle frontal e Oeste são referências de movimento. Assimetria e contrato de oclusão permanecem obrigatórios.
+
+**Exceção de formato:** o prompt solicitou 1448 × 1086, mas a folha efetivamente gerada e aprovada mede **1491 × 1055 px**, oito quadros em disposição 4 × 2; os limites proporcionais arredondados produzem células de larguras 372/373 e alturas 527/528 px. Não tratar esta fonte como atlas regular de células 362 × 543. O GIF aprovado mede 362 × 543 px, oito frames, 120 ms/quadro e ciclo de 960 ms. Na composição anterior à aprovação, as células foram recortadas, o conteúdo recebeu um fator uniforme comum para altura máxima de 480 px e foi centralizado aproximadamente em x=183, com base y=496. Fundo magenta opaco. A folha original não foi redimensionada nesta publicação.
+
+**L3.4 concluída: 6/8 pares arte + Idle (S/N/E/W/SE/SW).** Faltam NE e NW. Próxima etapa: **L3.5 — Arte estática NE**, conforme sequência de produção; aguardar instrução do usuário. Locomoção, transparência, atlas e validação em motor permanecem pendentes. Timing do GIF é de prévia.
