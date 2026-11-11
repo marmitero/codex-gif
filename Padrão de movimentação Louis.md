@@ -2,6 +2,10 @@
 
 Versão 1 — 10/11/2026. Referência: [Idle front Louis.png](referencias/Idle%20front%20Louis.png). Usar junto de [Arte Louis.md](Arte%20Louis.md).
 
+## Contrato atual do Walk — 11/11/2026
+
+O Idle continua com oito quadros. Para Walk, o [planejamento L3.W](docs/l3-w-planejamento-walk-cycle.md) define **16 frames por direção, oito por passo**, caminhada suave nas oito vistas. Planejado: grade 4×4, folha 1448×2172, células 362×543 e prévia inicial 80 ms/frame, sujeita à validação. Preservar escala; ampliar o canvas uniformemente se necessário. Regras de pés fixos do Idle não se aplicam ao pé livre do Walk; origem de chão estável e apoio compensado pelo deslocamento futuro do motor. Run será uma ação futura. L3.W0 é documental; 0/8 Walks produzidos. As seções abaixo analisam o Idle e preservam seu histórico.
+
 ## O que a folha demonstra
 
 Oito poses frontais de repouso, em quatro colunas e duas linhas. Louis permanece com ambos os pés apoiados e separados; não existe deslocamento de caminhada, rotação significativa, ataque ou troca de apoio. Variações suaves na altura da cabeça/ombros, volume do tronco, braços e tecidos sugerem respiração e acomodação corporal. Cabelo, lenço e faixa acompanham com variações pequenas, sem vento forte. Rosto permanece reconhecível e olhos abertos; a fonte não demonstra uma piscada completa.

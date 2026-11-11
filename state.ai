@@ -1,8 +1,8 @@
 # Estado de retomada — Louis
 updated: 2026-11-11
 repository: https://github.com/marmitero/codex-gif
-stage: L3.9 concluída — conferência final de arte e Idle nas oito direções; locomoção de L3 pendente
-status: 8/8 artes estáticas; 8/8 pares arte + Idle; repouso completo nas oito direções
+stage: L3.W0 concluída — planejamento do Walk; próxima produção L3.W1 (E piloto)
+status: Idle completo (8/8); Walk planejado (0/8 produzidos); Run futuro
 
 LEITURA OBRIGATÓRIA
 1. README.md
@@ -10,7 +10,8 @@ LEITURA OBRIGATÓRIA
 3. Padrão de movimentação Louis.md
 4. roadmap.md
 5. docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json.
-6. Abrir visualmente as duas imagens em referencias/ e artes/louis-costas-parado-v2.png antes de produzir.
+6. docs/l3-w-planejamento-walk-cycle.md (contrato atual do Walk; prevalece nas especificações de caminhada).
+7. Abrir visualmente as duas imagens em referencias/ e artes/louis-costas-parado-v2.png antes de produzir.
 
 DECISÕES DO USUÁRIO
 - Salvar tudo que for produzido neste repositório.
@@ -33,7 +34,10 @@ Duas fontes intactas em referencias/; dois documentos de referência na raiz; RE
 Nova arte: artes/louis-costas-parado-v2.png (1254x1254), aprovada e congelada. Registro: artes/louis-costas-parado-v2.md. Prompt real: prompts/louis-costas-parado-v2.txt. Idle N v1: animacoes/louis-idle-n-v1.png (1448x1086, RGB opaco, grade 4x2, oito quadros), original aprovado preservado. Prévia: animacoes/louis-idle-n-v1.gif, 120 ms/quadro, oito frames em leitura por linhas. Registro e JSON na mesma pasta. Prompt literal não recuperado; não inventar. Nenhuma validação no motor realizada.
 
 PRÓXIMO PASSO
-Locomoção nas oito direções: ação/direção a definir pelo usuário. Não repetir L3.8. Consultar exceções de formato SW/NE/NW; integração em motor permanece em L5.
+L3.W1 — Walk E piloto, 16 frames + GIF, seguindo docs/l3-w-planejamento-walk-cycle.md. L3.W0 é planejamento documental; nenhum Walk gerado ou aprovado. Uma direção por vez; apresentar para aprovação antes de congelar. Sequência: E, W, S, N, SE, SW, NE, NW, conferência final (L3.W9). Não repetir Idle. Run fica futuro; integração real permanece em L5.
+
+CONTRATO WALK — 2026-11-11
+16 desenhos temporais distintos, oito por passo, dois passos alternados. Caminhada suave, sem fase aérea, com braços contralaterais, transferência de peso e secundários discretos. Preservar escala e anatomia; oclusão dinâmica por frame. Grade planejada 4x4, célula 362x543, folha 1448x2172; se faltar margem, padding uniforme sem reduzir o personagem. Âncora (183,496) proposta, não validada em motor; pés livres não ficam presos à linha de apoio. Prévia inicial proposta 80 ms/frame, ciclo 1280 ms, a validar. Fontes SW/NE/NW irregulares permanecem intactas. Publicar PNG/GIF/MD/JSON e prompt literal real após aprovação; atualizar README/roadmap/state.ai.
 
 REGRA OBRIGATÓRIA: ler docs/oclusao-equipamentos.md e docs/oclusao-equipamentos.json. Bolsa e adaga são anterolaterais, não posteriores. Na vista N neutra, ficam totalmente ocultas por corpo/casaco. Faixa bordô tem visibilidade independente. V1 histórica contém erro de oclusão. Regra já aprovada pelo usuário; arte v2 também aprovada e congelada.
 

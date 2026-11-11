@@ -1,15 +1,34 @@
 # Roadmap Louis
 
-Atualização: 11/11/2026 (L3.9 — conferência final concluída).
+Atualização: 11/11/2026 (L3.W0 — planejamento do Walk publicado).
 
 | Etapa | Escopo | Estado |
 |---|---|---|
 | L0 | Preservar fontes, analisar arte e idle; criar documentação e estado | Concluída |
 | L1 | Receber escolha da próxima ação/direção; planejar poses e confirmar adaptação de câmera pela referência produzida | Concluída: arte posterior estática v2 aprovada e congelada em 10/11/2026 |
 | L2 | Produzir e validar a primeira folha nova e sua prévia animada, registrando prompt real | Folha Idle N v1 aprovada, congelada e publicada com prévia GIF; prompt real não recuperado (lacuna documental) |
-| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.9 concluídas; 8/8 artes e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW); locomoção pendente |
+| L3 | Completar gradualmente idle e locomoção nas oito direções | Em andamento: L3.1–L3.9 concluídas; 8/8 artes e 8/8 pares arte + Idle (S/N/E/W/SE/SW/NE/NW); Walk planejado em L3.W; 0/8 produzidos |
 | L4 | Ataques e skills em oito direções, com antecipação/impacto/recuperação | Pendente, ações a definir |
 | L5 | Exportar atlas, transparência, pivôs e metadados; validar em motor | Pendente, formato do jogo a definir |
+
+## L3.W — Caminhada suave nas oito direções
+
+[Contrato completo do Walk](docs/l3-w-planejamento-walk-cycle.md). 16 frames por direção, oito por passo; proporções e escala preservadas. Run será planejado em fase futura. Uma direção por vez, aprovação antes de congelar. Timing inicial de prévia proposto: 80 ms/frame (1280 ms/ciclo), a validar no piloto E. Grade planejada 4×4 com células 362×543; ampliar canvas uniformemente se necessário, sem encolher Louis.
+
+| Etapa | Entrega | Estado |
+|---|---|---|
+| L3.W0 | Planejamento do Walk de 16 frames | Publicado |
+| L3.W1 | Walk E piloto + GIF | Próxima produção |
+| L3.W2 | Walk W + GIF | Pendente |
+| L3.W3 | Walk S + GIF | Pendente |
+| L3.W4 | Walk N + GIF | Pendente |
+| L3.W5 | Walk SE + GIF | Pendente |
+| L3.W6 | Walk SW + GIF | Pendente |
+| L3.W7 | Walk NE + GIF | Pendente |
+| L3.W8 | Walk NW + GIF | Pendente |
+| L3.W9 | Conferência final: oito direções / 128 frames | Pendente |
+
+Esta publicação conclui somente L3.W0. Nenhum Walk foi produzido/aprovado. L4 e L5 mantêm seus escopos. Os registros seguintes são históricos; o estado atual é o quadro L3.W acima.
 
 A ordem posterior é uma proposta de organização, não autorização para gerar tudo. Uma ação/direção por geração, conforme contrato de movimento. Ações específicas, arma desembainhada, novas direções, quantidade final de frames e timing precisam de validação quando forem produzidos. Atualizar este arquivo em cada publicação.
 

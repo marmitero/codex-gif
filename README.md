@@ -84,13 +84,30 @@ Manter as artes e os GIFs em suas respectivas tabelas de **duas colunas**, com t
 
 **Procedência:** prompts literais dos Idles N, W, NE e NW não foram recuperados; os das referências recebidas não foram fornecidos. Essas lacunas não devem ser preenchidas com reconstruções apresentadas como originais. Metadados dos Idles: [S](animacoes/louis-idle-s-v1.json), [N](animacoes/louis-idle-n-v1.json), [E](animacoes/louis-idle-e-v1.json), [W](animacoes/louis-idle-w-v1.json), [SE](animacoes/louis-idle-se-v1.json), [SW](animacoes/louis-idle-sw-v1.json), [NE](animacoes/louis-idle-ne-v1.json), [NW](animacoes/louis-idle-nw-v1.json).
 
-## Próximas etapas
+## Próximas etapas — Walk Cycle suave
 
-- **L3 em andamento:** L3.1–L3.9 concluídas; oito direções com arte + Idle. Locomoção nas oito direções pendente.
-- **L4 pendente:** ataques e skills, com ações a definir.
-- **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
+**Idle concluído nas oito direções. Walk: 0/8 direções produzidas.** Próxima fase: **L3.W**, locomoção de L3, com **16 frames por direção: oito por passo**, total de 128 frames. Run fica para uma fase futura.
 
-Próxima produção: **locomoção — ação e direção a definir pelo usuário**. [Conferência final L3.9](docs/l3-9-conferencia-oito-direcoes.md).
+[Planejamento completo, fases, escala, oclusão e critérios de aprovação](docs/l3-w-planejamento-walk-cycle.md).
+
+| Etapa | Entrega | Estado |
+|---|---|---|
+| L3.W0 | Planejamento do Walk de 16 frames | Publicado |
+| L3.W1 | Walk E piloto + GIF | Próxima produção |
+| L3.W2 | Walk W + GIF | Pendente |
+| L3.W3 | Walk S + GIF | Pendente |
+| L3.W4 | Walk N + GIF | Pendente |
+| L3.W5 | Walk SE + GIF | Pendente |
+| L3.W6 | Walk SW + GIF | Pendente |
+| L3.W7 | Walk NE + GIF | Pendente |
+| L3.W8 | Walk NW + GIF | Pendente |
+| L3.W9 | Conferência final: oito direções / 128 frames | Pendente |
+
+Formato planejado: células **362 × 543 px**, folha **4 × 4 / 1448 × 2172 px**, sem reduzir o personagem. Se necessário, ampliar uniformemente o canvas para preservar a escala e evitar cortes. Prévia inicial proposta: **80 ms/frame / 1280 ms por ciclo**, a validar no piloto. Movimento de mãos, braços, ombros, cintura, pernas e roupa; apoio contínuo e oclusão por quadro.
+
+Uma direção por etapa, seguida de aprovação, congelamento e publicação dos arquivos e registros. Próxima produção: **L3.W1 — Walk E piloto**. Este planejamento não gerou animações. Galeria Walk futura seguirá duas colunas e ordem S/N, E/W, SE/SW, NE/NW.
+
+L4 continua reservada a ataques/skills; L5 a transparência, atlas, pivôs e testes em motor. [Conferência do Idle L3.9](docs/l3-9-conferencia-oito-direcoes.md).
 
 > Os registros datados abaixo preservam o estado de cada publicação; o estado atual consta em L3.9 e no inventário.
 
