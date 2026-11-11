@@ -46,3 +46,9 @@ A nova produção mudou para **peças fixas + articulações e trajetórias calc
 Aprendizado positivo adicional: fixar identidade e volume em componentes persistentes; calcular a sequência antes de exportar; usar articulação independente do pé para não obrigar a bota a acompanhar a rotação inteira da canela. Aprendizado negativo adicional: não confundir um prompt de física com uma simulação; não usar um conjunto de poses independentes rejeitadas como animação; não aceitar a validação numérica do apoio sem conferir a aparência da articulação e da sola.
 
 O [relatório do piloto rig03](l3-w1-rig-03.md) registra medições, verificações e limites. O novo piloto tem16 quadros e foi apresentado para avaliação visual; não está aprovado ou congelado.
+
+## Rig04 — proporções e faces dos membros · 11/11/2026
+
+Feedback do usuário: “a movimentação em si ficou boa”, mas os membros estavam desproporcionais. A auditoria confirmou mãos/botas pequenas, tecido excessivo no joelho e uso de superfícies externas nos membros distantes. O movimento do rig03 foi conservado; a arte passou por calibração de largura, alcance e encaixes, com geração específica das faces mediais. [Auditoria rig04, medidas, prompts e resultado](l3-w1-rig-04-auditoria-proporcoes.md).
+
+Aprendizado positivo: congelar a referência de escala do núcleo corporal, comparar em pose neutra, medir largura e alcance além de altura, descontar áreas escondidas dos encaixes e manter a anatomia próxima/distante. Aprendizado negativo: não normalizar apenas a caixa de altura; não tratar bone lengths constantes como prova de proporção artística; não duplicar superfície externa em membro distante; não mover membro oculto para mostrar seus detalhes. Rig04 apresentado para avaliação; ainda sem Walk congelado.
