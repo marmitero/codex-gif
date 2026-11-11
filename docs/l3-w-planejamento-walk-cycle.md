@@ -1,7 +1,7 @@
 # L3.W — Planejamento do Walk Cycle de Louis
 
 Data: 11/11/2026. Base documental: L3.9, commit a0dfacaddf0cb1c6f271b03888e540bcb0dc45b1.
-Estado: planejamento publicado; 0/8 Walks produzidos. Requisito do usuário: caminhar suave, 16 frames por direção (oito por passo), dimensões e identidade preservadas. Run fica para uma fase futura.
+Estado atualizado em11/11/2026:0/8 Walks aprovados; piloto E rig03 produzido para avaliação visual. Tentativas anteriores rejeitadas. Consultar [aprendizados e prompts](l3-w1-aprendizados-e-prompts.md) e [execução rig03](l3-w1-rig-03.md). Requisito do usuário: caminhar suave, 16 frames por direção (oito por passo), dimensões e identidade preservadas. Run fica para uma fase futura.
 
 ## Autoridades e preparação
 
@@ -74,7 +74,7 @@ A nomenclatura L3.W continua a locomoção de L3 sem renumerar L4 (combate) ou L
 | Etapa | Entrega | Referências principais | Estado |
 |---|---|---|---|
 | L3.W0 | Planejamento, contrato de 16 frames e roadmap | L3.9 + documentos existentes | Concluída nesta publicação documental |
-| L3.W1 | Walk E piloto: 16 frames + GIF | Arte/Idle E + frente + costas v2 | Pendente; próxima produção |
+| L3.W1 | Walk E piloto: 16 frames + GIF | Arte/Idle E + frente + costas v2 | Piloto rig03 produzido; avaliação visual pendente |
 | L3.W2 | Walk W: 16 frames + GIF | Arte/Idle W + piloto aprovado | Pendente |
 | L3.W3 | Walk S: 16 frames + GIF | Frente original + E/W aprovados | Pendente |
 | L3.W4 | Walk N: 16 frames + GIF | Costas v2 + Idle N + E/W | Pendente |
