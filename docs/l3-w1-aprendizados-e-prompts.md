@@ -36,3 +36,13 @@ O guia pode impor comprimentos articulares constantes, chão, trajetórias e alt
 Nova tentativa: pares de dois instantes com guia temporal comum, reduzindo a carga de poses de cada geração. Montagem preserva fontes, usa uma escala comum e registra operações. Verificação:16 quadros, lados persistentes, posição de cada pé, continuidade de cada par e de todas as fronteiras, volumes e equipamentos. Rejeitar qualquer falha que permaneça; não congelar uma animação por ter16 arquivos.
 
 As tentativas 01 e02 foram rejeitadas pelo usuário. As artes e os Idles aprovados continuam congelados. O resultado da nova tentativa será registrado separadamente; esta publicação documental não aprova nenhum Walk.
+
+## Resultado da execução seguinte: pares rejeitados e mudança para rig
+
+Os oito pares foram gerados, mas o par01/02 antecipou o contato da perna direita e outros pares repetiram estados ou contrariaram as identidades do guia. Portanto, reduzir de quatro para duas poses por imagem também não foi suficiente. Não usar essas fontes como ciclo aprovado.
+
+A nova produção mudou para **peças fixas + articulações e trajetórias calculadas**. O gerador de imagens produziu um atlas transparente de nove peças; um compositor de animação utiliza sempre as mesmas peças, com joelho e tornozelo articulados, lados fixos, braço oposto à perna, apoio e arco livre. Cabeça e tronco não são redesenhados por quadro. Pequena deformação abaixo do cinto acrescenta atraso ao tecido. As artes/Idles congelados não foram alterados.
+
+Aprendizado positivo adicional: fixar identidade e volume em componentes persistentes; calcular a sequência antes de exportar; usar articulação independente do pé para não obrigar a bota a acompanhar a rotação inteira da canela. Aprendizado negativo adicional: não confundir um prompt de física com uma simulação; não usar um conjunto de poses independentes rejeitadas como animação; não aceitar a validação numérica do apoio sem conferir a aparência da articulação e da sola.
+
+O [relatório do piloto rig03](l3-w1-rig-03.md) registra medições, verificações e limites. O novo piloto tem16 quadros e foi apresentado para avaliação visual; não está aprovado ou congelado.
