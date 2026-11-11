@@ -98,3 +98,7 @@ Costas v2 + Leste são as autoridades principais; arte frontal e Idle frontal s�
 ## Auditoria de integridade — 11/11/2026
 
 [Relatório](docs/auditoria-integridade-2026-11-11.md) e [medições](analise/integridade.json). O commit manual restaurou o **PNG Oeste (W)**, que agora decodifica integralmente e corresponde ao hash previamente documentado. O PNG SW não mudou nesse commit e abre completo. Fontes preservadas; lacunas conhecidas e limites da revisão registrados no relatório.
+
+## Organização das galerias — 11/11/2026
+
+Regra de publicação: seguir o padrão obrigatório das galerias no README. Tabelas centralizadas de duas colunas; pares S/N, E/W, SE/SW, NE/NW; artes a 260 px e GIFs a 240 px, com proporção preservada e link para o original. Substituir a célula pendente ao publicar uma direção; não acrescentar prévias soltas ou duplicadas ao final do arquivo.

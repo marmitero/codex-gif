@@ -24,38 +24,27 @@ Conferência do inventário e dos registros em **11/11/2026**, considerando as r
 
 As quatro direções cardeais, SE, SW e NE possuem GIFs publicados e são exibidas abaixo. O GIF frontal foi enviado pelo usuário em 10/11/2026 e preservado sem alteração; [registro e procedência](animacoes/louis-idle-s-v1.md).
 
-<table>
-<tr><th>Frente · S — GIF</th><th>Costas · N — GIF</th></tr>
-<tr>
-<td align="center"><a href="animacoes/louis-idle-s-v1.gif"><img src="animacoes/louis-idle-s-v1.gif" alt="Louis em Idle de frente" width="240"></a></td>
-<td align="center"><a href="animacoes/louis-idle-n-v1.gif"><img src="animacoes/louis-idle-n-v1.gif" alt="Louis em Idle de costas" width="240"></a></td>
-</tr>
-<tr><th>Leste · E — GIF</th><th>Oeste · W — GIF</th></tr>
-<tr>
-<td align="center"><a href="animacoes/louis-idle-e-v1.gif"><img src="animacoes/louis-idle-e-v1.gif" alt="Louis em Idle olhando para a direita" width="240"></a></td>
-<td align="center"><a href="animacoes/louis-idle-w-v1.gif"><img src="animacoes/louis-idle-w-v1.gif" alt="Louis em Idle olhando para a esquerda" width="240"></a></td>
-</tr>
-</table>
-
-<p align="center"><a href="animacoes/louis-idle-se-v1.gif"><img src="animacoes/louis-idle-se-v1.gif" alt="Louis em Idle Sudeste SE aprovado" width="240"></a><br>Sudeste · SE — L3.2 aprovada e congelada</p>
-
-[Baixar GIF S](animacoes/louis-idle-s-v1.gif) · [Baixar GIF N](animacoes/louis-idle-n-v1.gif) · [Baixar GIF E](animacoes/louis-idle-e-v1.gif) · [Baixar GIF W](animacoes/louis-idle-w-v1.gif)
-
-<p align="center"><a href="animacoes/louis-idle-ne-v1.gif"><img src="animacoes/louis-idle-ne-v1.gif" alt="Louis Idle NE aprovado e congelado" width="240"></a><br>Nordeste · NE — L3.6 aprovada e congelada</p>
+| Frente · S | Costas · N |
+|:---:|:---:|
+| <a href="animacoes/louis-idle-s-v1.gif"><img src="animacoes/louis-idle-s-v1.gif" alt="Louis Frente · S — Idle GIF" width="240"></a> | <a href="animacoes/louis-idle-n-v1.gif"><img src="animacoes/louis-idle-n-v1.gif" alt="Louis Costas · N — Idle GIF" width="240"></a> |
+| **Leste · E** | **Oeste · W** |
+| <a href="animacoes/louis-idle-e-v1.gif"><img src="animacoes/louis-idle-e-v1.gif" alt="Louis Leste · E — Idle GIF" width="240"></a> | <a href="animacoes/louis-idle-w-v1.gif"><img src="animacoes/louis-idle-w-v1.gif" alt="Louis Oeste · W — Idle GIF" width="240"></a> |
+| **Sudeste · SE** | **Sudoeste · SW** |
+| <a href="animacoes/louis-idle-se-v1.gif"><img src="animacoes/louis-idle-se-v1.gif" alt="Louis Sudeste · SE — Idle GIF" width="240"></a> | <a href="animacoes/louis-idle-sw-v1.gif"><img src="animacoes/louis-idle-sw-v1.gif" alt="Louis Sudoeste · SW — Idle GIF" width="240"></a> |
+| **Nordeste · NE** | **Noroeste · NW** |
+| <a href="animacoes/louis-idle-ne-v1.gif"><img src="animacoes/louis-idle-ne-v1.gif" alt="Louis Nordeste · NE — Idle GIF" width="240"></a> | Pendente — a produzir |
 
 ## Galeria de artes congeladas
 
 | Frente · S | Costas · N (v2) |
 |:---:|:---:|
-| <img src="referencias/arte%20congelada%20Louis.png" alt="Arte frontal congelada" width="260"> | <img src="artes/louis-costas-parado-v2.png" alt="Arte posterior v2 congelada" width="260"> |
+| <a href="referencias/arte%20congelada%20Louis.png"><img src="referencias/arte%20congelada%20Louis.png" alt="Louis Frente · S — arte congelada" width="260"></a> | <a href="artes/louis-costas-parado-v2.png"><img src="artes/louis-costas-parado-v2.png" alt="Louis Costas · N — arte congelada" width="260"></a> |
 | **Leste · E** | **Oeste · W** |
-| <img src="artes/louis-leste-parado-v1.png" alt="Arte Leste congelada" width="260"> | <img src="artes/louis-oeste-parado-v1.png" alt="Arte Oeste congelada" width="260"> |
-
-<p align="center"><a href="artes/louis-sudeste-parado-v1.png"><img src="artes/louis-sudeste-parado-v1.png" alt="Louis Sudeste SE — arte estática congelada L3.1" width="300"></a><br>Sudeste · SE — L3.1 aprovada e congelada</p>
-
-<p align="center"><a href="artes/louis-sudoeste-parado-v1.png"><img src="artes/louis-sudoeste-parado-v1.png" alt="Louis Sudoeste SW — arte estática congelada L3.3" width="300"></a><br>Sudoeste · SW — L3.3 aprovada e congelada</p>
-
-<p align="center"><a href="artes/louis-nordeste-parado-v1.png"><img src="artes/louis-nordeste-parado-v1.png" alt="Louis Nordeste NE — arte congelada L3.5" width="300"></a><br>Nordeste · NE — L3.5 aprovada e congelada</p>
+| <a href="artes/louis-leste-parado-v1.png"><img src="artes/louis-leste-parado-v1.png" alt="Louis Leste · E — arte congelada" width="260"></a> | <a href="artes/louis-oeste-parado-v1.png"><img src="artes/louis-oeste-parado-v1.png" alt="Louis Oeste · W — arte congelada" width="260"></a> |
+| **Sudeste · SE** | **Sudoeste · SW** |
+| <a href="artes/louis-sudeste-parado-v1.png"><img src="artes/louis-sudeste-parado-v1.png" alt="Louis Sudeste · SE — arte congelada" width="260"></a> | <a href="artes/louis-sudoeste-parado-v1.png"><img src="artes/louis-sudoeste-parado-v1.png" alt="Louis Sudoeste · SW — arte congelada" width="260"></a> |
+| **Nordeste · NE** | **Noroeste · NW** |
+| <a href="artes/louis-nordeste-parado-v1.png"><img src="artes/louis-nordeste-parado-v1.png" alt="Louis Nordeste · NE — arte congelada" width="260"></a> | Pendente — a produzir |
 
 ## Especificações e uso
 
@@ -72,6 +61,10 @@ As quatro direções cardeais, SE, SW e NE possuem GIFs publicados e são exibid
 Aprovação visual e congelamento não certificam ancoragem exata nem integração no jogo. O timing dos GIFs é de prévia; o PNG frontal não fornece timing original. Preservar os originais: alterações exigem nova versão e aprovação.
 
 **Assimetria obrigatória:** não espelhar E para obter W. Ombreira metálica e adaga pertencem ao lado esquerdo anatômico; bolsa, faixa e tira da coxa ao direito. Bolsa e adaga são anteriores e ficam ocultas na vista posterior neutra. Usar sempre a **arte posterior v2**; v1 é histórico superado. Consultar o [contrato de oclusão](docs/oclusao-equipamentos.md) e seu [JSON](docs/oclusao-equipamentos.json).
+
+## Padrão obrigatório das galerias
+
+Manter as artes e os GIFs em suas respectivas tabelas de **duas colunas**, com títulos por direção e conteúdo centralizado. Ordem fixa das linhas: **S/N, E/W, SE/SW, NE/NW**. Artes com largura de exibição de **260 px**; GIFs com **240 px**, preservando a proporção. Cada prévia deve abrir seu arquivo original ao clicar. Direções ainda não publicadas devem mostrar “Pendente — a produzir”. Inserir novas publicações na célula correspondente, sem imagens soltas ou duplicadas ao final do README. Essa regra altera somente a apresentação, nunca os arquivos aprovados.
 
 ## Documentação e inventário
 
@@ -98,8 +91,6 @@ Aprovação visual e congelamento não certificam ancoragem exata nem integraç�
 - **L5 pendente:** transparência, atlas, pivôs, metadados de integração e teste em motor.
 
 Próxima etapa: **L3.7 — arte estática NW**, depois L3.8 (Idle NW). [Registro da arte SW congelada](artes/louis-sudoeste-parado-v1.md).
-
-<p align="center"><a href="animacoes/louis-idle-sw-v1.gif"><img src="animacoes/louis-idle-sw-v1.gif" alt="Louis Idle SW aprovado e congelado" width="240"></a><br>Sudoeste · SW — L3.4 aprovada e congelada</p>
 
 ## L3.4 — Idle Sudoeste (SW) aprovado e congelado — 10/11/2026
 
