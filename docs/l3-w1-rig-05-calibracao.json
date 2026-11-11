@@ -1,0 +1,292 @@
+{
+  "stage": "L3.W1",
+  "revision": "rig05",
+  "new_image_generations": 0,
+  "sources_reused_from": "rig04",
+  "core_size": [
+    156,
+    330
+  ],
+  "cell": [
+    362,
+    543
+  ],
+  "ground_y": 496,
+  "timing_ms": 80,
+  "frame_count": 16,
+  "hip_rest": [
+    183,
+    299
+  ],
+  "leg_bone_lengths": [
+    102,
+    76
+  ],
+  "upper_arm_bone_length": 57,
+  "arm_shoulder_y": 211,
+  "rest_thigh_mapping": {
+    "source_y": [
+      0,
+      35,
+      46,
+      95,
+      104
+    ],
+    "destination_y": [
+      13,
+      54,
+      66,
+      102,
+      111
+    ],
+    "pivot_y": 0,
+    "note": "mapping is fixed for every frame; hidden hip origin precedes visible trouser pixels"
+  },
+  "components": [
+    {
+      "name": "upper_right",
+      "source_box": [
+        124,
+        61,
+        327,
+        398
+      ],
+      "source_size": [
+        203,
+        337
+      ],
+      "target_height": 69,
+      "scaled_size": [
+        42,
+        69
+      ],
+      "assembly_size": [
+        47,
+        76
+      ],
+      "pivot_y": 13
+    },
+    {
+      "name": "upper_left",
+      "source_file": "louis-limbs-04-refino-fonte.png",
+      "source_box": [
+        160,
+        122,
+        482,
+        739
+      ],
+      "source_size": [
+        322,
+        617
+      ],
+      "target_height": 80,
+      "scaled_size": [
+        42,
+        80
+      ],
+      "pivot_y": 25,
+      "assembly_size": [
+        47,
+        88
+      ]
+    },
+    {
+      "name": "fore_right",
+      "source_box": [
+        1040,
+        54,
+        1204,
+        404
+      ],
+      "source_size": [
+        164,
+        350
+      ],
+      "target_height": 78,
+      "scaled_size": [
+        37,
+        78
+      ],
+      "assembly_size": [
+        40,
+        84
+      ],
+      "pivot_y": 7
+    },
+    {
+      "name": "fore_left",
+      "source_box": [
+        1478,
+        54,
+        1645,
+        413
+      ],
+      "source_size": [
+        167,
+        359
+      ],
+      "target_height": 78,
+      "scaled_size": [
+        36,
+        78
+      ],
+      "assembly_size": [
+        39,
+        84
+      ],
+      "pivot_y": 7
+    },
+    {
+      "name": "thigh_right",
+      "source_file": "louis-limbs-04-refino-fonte.png",
+      "source_box": [
+        747,
+        119,
+        1022,
+        755
+      ],
+      "source_size": [
+        275,
+        636
+      ],
+      "target_height": 104,
+      "scaled_size": [
+        45,
+        104
+      ],
+      "assembly_size": [
+        52,
+        104
+      ],
+      "pivot_y": -7
+    },
+    {
+      "name": "thigh_left",
+      "source_file": "louis-limbs-04-refino-fonte.png",
+      "source_box": [
+        1334,
+        119,
+        1606,
+        755
+      ],
+      "source_size": [
+        272,
+        636
+      ],
+      "target_height": 104,
+      "scaled_size": [
+        44,
+        104
+      ],
+      "assembly_size": [
+        51,
+        104
+      ],
+      "pivot_y": -7
+    },
+    {
+      "name": "calf_right",
+      "source_box": [
+        977,
+        487,
+        1242,
+        848
+      ],
+      "source_size": [
+        265,
+        361
+      ],
+      "target_height": 107,
+      "scaled_size": [
+        79,
+        107
+      ],
+      "assembly_size": [
+        79,
+        107
+      ],
+      "pivot_y": 6
+    },
+    {
+      "name": "calf_left",
+      "source_box": [
+        1424,
+        491,
+        1688,
+        848
+      ],
+      "source_size": [
+        264,
+        357
+      ],
+      "target_height": 107,
+      "scaled_size": [
+        79,
+        107
+      ],
+      "assembly_size": [
+        79,
+        107
+      ],
+      "pivot_y": 6
+    }
+  ],
+  "visible_reference_check": {
+    "reference": {
+      "band_bright_rows": [
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
+      ],
+      "band_bright_center": 359.5,
+      "finger_skin_bottom": 341
+    },
+    "rig04": {
+      "band_bright_rows": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "band_bright_center": 345.5,
+      "finger_skin_bottom": 338,
+      "band_error_px": 14.0,
+      "finger_error_px": 3
+    },
+    "rig05": {
+      "band_bright_rows": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "band_bright_center": 357.5,
+      "finger_skin_bottom": 343,
+      "band_error_px": 2.0,
+      "finger_error_px": 2
+    }
+  },
+  "source_sha256": {
+    "core.png": "572c3fa6f2db2e1cf53fc2769346abe2a85031475e8dd527ac008afa1c786dcc",
+    "louis-limbs-04-fonte.png": "e45b7096b98ac2817bef3b24bb44f584a2d42f818d88fda156a78f432c204895",
+    "louis-limbs-04-refino-fonte.png": "3e73335fc9f8dd3fd6c30b348e5f83899cb66a65bb1f47dbd45f41cf920aaf3d"
+  },
+  "limits": [
+    "Hidden hip is inferred, not directly measurable in the flattened reference",
+    "Visible color fixtures do not prove complete anatomical fidelity",
+    "Fixed rest transformations are distinct from animation-time scaling"
+  ]
+}
